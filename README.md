@@ -1,2 +1,2 @@
-# find_portaventura_offers
+# find-portaventura-offers
 Find best days to visit Portaventura
