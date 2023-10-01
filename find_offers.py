@@ -75,10 +75,11 @@ class FindOffers:
         # Find the last date with a non-null rate
         last_date = None
         for date in sorted_dates:
-            ratePlan = self.data[date]["hotels"][0]["ratePlan"]
-            if ratePlan is not None:
-                last_date = date
-                break
+            if date in self.data and "hotels" in self.data[date]:
+                ratePlan = self.data[date]["hotels"][0]["ratePlan"]
+                if ratePlan is not None:
+                    last_date = date
+                    break
 
         if last_date:
             print("The last date with a non-null rate is:", last_date)
@@ -86,9 +87,11 @@ class FindOffers:
             print("No non-null rates were found on any date.")
 
 find_offers = FindOffers('./downloaded_data/20230930_datos_3_adult_2_child.json')
+find_offers.print_unique_hotel_names()
+print("----------------------------------")
+find_offers.print_last_date_with_rate()
 find_offers.print_minor_rates_all_hotels()
 find_offers.print_minor_rates_only_port_aventura()
-find_offers.print_last_date_with_rate()
 find_offers.print_minor_rates_only_this_hotel("Hotel Caribe")
 find_offers.print_minor_rates_only_this_hotel("Hotel Mansión de Lucy")
 find_offers.print_minor_rates_only_this_hotel("Hotel Colorado Creek")
