@@ -1,0 +1,284 @@
+{
+    "download_date_start": "2023-10-01",
+    "download_date_end": "2023-10-04",
+    "query": {
+        "languageCode": "es",
+        "startDate": "2023-10-04",
+        "endDate": "2023-10-05",
+        "children": 2,
+        "adults": 3,
+        "childrenAges": [
+            6,
+            10
+        ],
+        "rooms": 1,
+        "maxChildren": 2,
+        "maxAdults": 3,
+        "coupon": "",
+        "couponType": "Discount",
+        "roomsArray": [
+            {
+                "adults": 3,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    10
+                ]
+            }
+        ]
+    },
+    "hotels_rate": [
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Vila Centric",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Pirámide Salou",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Colorado Creek",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Roulette",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Caribe",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Gold River",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel PortAventura",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel El Paso",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-01",
+            "name": "Hotel Mansión de Lucy",
+            "rate": null,
+            "rateOld": null,
+            "discount": null
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Pirámide Salou",
+            "rate": 270,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Gold River",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Vila Centric",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Roulette",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Caribe",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel PortAventura",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel El Paso",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-02",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Pirámide Salou",
+            "rate": 270,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Gold River",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Vila Centric",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Roulette",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Colorado Creek",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Caribe",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel PortAventura",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel El Paso",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-03",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Pirámide Salou",
+            "rate": 270,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Gold River",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Vila Centric",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Roulette",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Caribe",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel PortAventura",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel El Paso",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-04",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 422.1,
+            "rateOld": null,
+            "discount": 0
+        }
+    ]
+}
