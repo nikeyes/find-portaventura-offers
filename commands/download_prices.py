@@ -34,26 +34,37 @@ class PortaventuraRates:
     query: dict
     hotels_rate = []
 
-    def __init__(self, date_start: datetime, date_end: datetime) -> None:
+    def __init__(self, 
+                 date_start: datetime, 
+                 date_end: datetime, 
+                 children: int,
+                 children_ages: str,
+                 adults: int) -> None:
         self.download_date_start = date_start.strftime("%Y-%m-%d")
         self.download_date_end = date_end.strftime("%Y-%m-%d")
+        
+        children_ages_list = []
+        if len(children_ages)>0:
+            children_ages_list = [int(age) for age in children_ages.split(',')]
+        
+
         self.query = {
             "languageCode": "es",
             "startDate": None,
             "endDate": None,
-            "children": 2,
-            "adults": 3,
-            "childrenAges": [6, 10],
+            "children": children,
+            "adults": adults,
+            "childrenAges": children_ages_list,
             "rooms": 1,
-            "maxChildren": 2,
-            "maxAdults": 3,
+            "maxChildren": children,
+            "maxAdults": adults,
             "coupon": "",
             "couponType": "Discount",
             "roomsArray": [
                 {
-                    "adults": 3,
-                    "children": 2,
-                    "childrenAges": [6, 10]
+                    "adults": adults,
+                    "children": children,
+                    "childrenAges": children_ages_list
                 }
             ]
         }
@@ -75,9 +86,16 @@ class PortaventuraRates:
 class DownloadPrices:
     date_ini: datetime
     date_end: datetime
+    children: int
+    children_ages: str
+    adults: int
     step: timedelta = timedelta(days=1)
 
-    def __init__(self, date_ini: datetime, date_end: datetime) -> None:
+    def __init__(self, date_ini: datetime,
+                 date_end: datetime, 
+                 children: int,
+                 children_ages: str,
+                 adults: int) -> None:
         if not date_ini or not date_end:
             raise ValueError("Both date_ini and date_end are mandatory")
         if not isinstance(date_ini, datetime) or not isinstance(date_end, datetime):
@@ -85,6 +103,9 @@ class DownloadPrices:
 
         self.date_ini = date_ini
         self.date_end = date_end
+        self.children =  children
+        self.children_ages = children_ages
+        self.adults = adults
 
     def download(self):
         current_date = self.date_ini
@@ -107,7 +128,11 @@ class DownloadPrices:
             )
 
             portaventura_rates = PortaventuraRates(
-                date_start=self.date_ini, date_end=self.date_end
+                date_start=self.date_ini, 
+                date_end=self.date_end,
+                children=self.children,
+                children_ages=self.children_ages,
+                adults=self.adults
             )
 
             while current_date <= self.date_end:
