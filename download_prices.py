@@ -156,9 +156,3 @@ class DownloadPrices:
             "Content-Type": "application/json"
         }
         return requests.post(url, data=payload, headers=headers)
-
-# if __name__ == "__main__":
-#     start_date = datetime(2023, 10, 1)
-#     end_date = datetime(2023, 10, 4)
-#     downloader = DownloadPrices(start_date, end_date)
-#     downloader.download()

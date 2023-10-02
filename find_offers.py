@@ -9,7 +9,7 @@ class FindOffers:
     def __init__(self, data_file:str) -> None:
         file_path = data_file
 
-        with open(file_path, 'r') as json_file:
+        with open(file_path, 'r') as json_file: 
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
 
@@ -56,12 +56,9 @@ class FindOffers:
 
 
     def print_last_date_with_rate(self):
-        result = max(
-            (hotel for hotel in self.hotels_rate if hotel["rate"] is not None),
-            key=lambda x: x["date"]
-            )
-
-        if result:
-            print("The last date with a non-null rate is:",  result["date"], result["name"], result["rate"])
+        non_null_rates = [hotel for hotel in self.hotels_rate if hotel["rate"] is not None]
+        if non_null_rates:
+            result = max(non_null_rates, key=lambda x: x["date"])
+            print("The last date with a non-null rate is:", result["date"], result["name"], result["rate"])
         else:
             print("No non-null rates were found on any date.")
