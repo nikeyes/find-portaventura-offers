@@ -13,35 +13,20 @@ class HotelRate:
     rate_old: float
     discount: float
 
-    @classmethod
-    def from_json(cls, date, hotel):
-        if hotel is None:
-            return cls(
-                date=date.strftime("%Y-%m-%d"),
-                name=None,
-                rate=None,
-                rate_old=None,
-                discount=None,
-            )
-
-        rate_plan = hotel.get("ratePlan")
-        if rate_plan is None:
-            return cls(
-                date=date.strftime("%Y-%m-%d"),
-                name=hotel.get("hotelName"),
-                rate=None,
-                rate_old=None,
-                discount=None,
-            )
-
-        return cls(
-            date=date.strftime("%Y-%m-%d"),
-            name=hotel.get("hotelName"),
-            rate=rate_plan.get("rate"),
-            rate_old=rate_plan.get("rateOld"),
-            discount=rate_plan.get("discount"),
-        )
-
+    def __init__(self, date, hotel):
+        self.date = date.strftime("%Y-%m-%d")
+        if hotel is not None:
+            self.name=hotel.get("hotelName")
+            rate_plan = hotel.get("ratePlan")
+            if rate_plan is not None:     
+                self.rate=rate_plan.get("rate")
+                self.rate_old=rate_plan.get("rateOld")
+                self.discount=rate_plan.get("discount")
+            else:
+                self.rate=None
+                self.rate_old=None
+                self.discount=None
+                
 @dataclass
 class PortaventuraRates:
     download_date_start: str
@@ -138,7 +123,7 @@ class DownloadPrices:
                     rates_json = response.json()
                     if "hotels" in rates_json:
                         for hotel_data in rates_json["hotels"]:
-                            hotel_rate = HotelRate.from_json(current_date, hotel_data)
+                            hotel_rate = HotelRate(current_date, hotel_data)
                             portaventura_rates.add_hotel(hotel=hotel_rate)
 
                 current_date += self.step

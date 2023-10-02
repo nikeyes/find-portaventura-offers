@@ -3,11 +3,11 @@ from datetime import datetime
 
 from find_offers import FindOffers
 
-# date_ini:datetime = datetime(2023, 10, 2)
-# date_end:datetime = datetime(2025, 1, 7)
+date_ini:datetime = datetime(2023, 10, 2)
+date_end:datetime = datetime(2023, 10, 5)
 
-# dp = DownloadPrices(date_ini=date_ini, date_end=date_end)
-# dp.download()
+dp = DownloadPrices(date_ini=date_ini, date_end=date_end)
+dp.download()
 
 find_offers = FindOffers('./downloaded_data/20231002.json')
 find_offers.print_unique_hotel_names()
