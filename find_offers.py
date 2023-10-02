@@ -13,14 +13,6 @@ class FindOffers:
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
 
-        # for day, value in self.data.items():
-        #     if value.get("hotels"):
-        #         for hotel in value["hotels"]:
-        #             price = hotel["ratePlan"]["rate"] if hotel["ratePlan"] else 999999
-        #             rate = Rate(date=day, hotel_name= hotel["hotelName"], rate=price)
-        #             self.rates.append(rate)
-
-
     def print_unique_hotel_names(self):
         unic_names = set()
 
@@ -34,13 +26,13 @@ class FindOffers:
     def print_minor_rates_only_port_aventura(self):
         only_this_hotels = ["Hotel El Paso", "Hotel Colorado Creek","Hotel Gold River", "Hotel Mansión de Lucy", "Hotel PortAventura", "Hotel Caribe", "Hotel Roulette"]
 
-        filtered_hotels = [hotel_rate for hotel_rate in self.hotels_rate if hotel_rate.name in only_this_hotels]
+        filtered_hotels = [hotel_rate for hotel_rate in self.hotels_rate if hotel_rate["name"] in only_this_hotels]
 
         self.minor_rate(filtered_hotels)
 
     def print_minor_rates_only_this_hotel(self, hotel:str):
 
-        filtered_hotels = [hotel_rate for hotel_rate in self.hotels_rate if hotel_rate.name == hotel]
+        filtered_hotels = [hotel_rate for hotel_rate in self.hotels_rate if hotel_rate["name"] == hotel]
 
         self.minor_rate(filtered_hotels)
 
@@ -53,23 +45,23 @@ class FindOffers:
         # minor_rate = min(hotels, key=lambda rate: rate.rate)
         # print(minor_rate)
 
-        ordered_rates = sorted(hotels, key=lambda rate: rate.rate)
+        ordered_rates = sorted(hotels, key=lambda rate: rate["rate"] if rate["rate"] is not None else float('inf'))
         
         five_minor_rates = ordered_rates[:5]
 
         # Imprimir los 5 objetos con las tasas más bajas
         print("-------------Lowest rates:---------------")
         for hotel_rate in five_minor_rates:
-            print(f"Date: {hotel_rate.date}, Hotel Name: {hotel_rate.name}, Rate: {hotel_rate.rate}")
+            print(f"Date: {hotel_rate['date']}, Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
 
 
     def print_last_date_with_rate(self):
         result = max(
             (hotel for hotel in self.hotels_rate if hotel["rate"] is not None),
-            key=lambda x: x.date
+            key=lambda x: x["date"]
             )
 
         if result:
-            print("The last date with a non-null rate is:",  result.date, result.name, result.rate)
+            print("The last date with a non-null rate is:",  result["date"], result["name"], result["rate"])
         else:
             print("No non-null rates were found on any date.")
