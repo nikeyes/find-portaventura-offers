@@ -38,6 +38,10 @@ def find_offers(data_path):
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Caribe")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Mansión de Lucy")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Colorado Creek")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Gold River")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
+
 
 if __name__ == '__main__':
     cli()
