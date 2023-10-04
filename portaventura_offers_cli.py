@@ -41,6 +41,8 @@ def find_offers(data_path):
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Gold River")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
+    find_offers_instance.print_minor_rates_only_this_hotel("Deluxe Superior Club San Juan")
+    
 
 
 if __name__ == '__main__':

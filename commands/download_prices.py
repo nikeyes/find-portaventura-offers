@@ -13,7 +13,7 @@ class HotelRate:
     rate_old: float
     discount: float
 
-    def __init__(self, date, hotel):
+    def __init__(self, date:datetime, hotel):
         self.date = date.strftime("%Y-%m-%d")
         if hotel is not None:
             self.name=hotel.get("hotelName")
@@ -33,6 +33,7 @@ class PortaventuraRates:
     download_date_end: str
     query: dict
     hotels_rate = []
+    HOTEL_CARIBE_CODE = 112622
 
     def __init__(self, 
                  date_start: datetime, 
@@ -47,8 +48,7 @@ class PortaventuraRates:
         if len(children_ages)>0:
             children_ages_list = [int(age) for age in children_ages.split(',')]
         
-
-        self.query = {
+        self.generic_query = {
             "languageCode": "es",
             "startDate": None,
             "endDate": None,
@@ -69,10 +69,33 @@ class PortaventuraRates:
             ]
         }
 
-    def get_query(self, start_date: datetime, end_date: datetime):
-        self.query["startDate"] = start_date.strftime("%Y-%m-%d")
-        self.query["endDate"] = end_date.strftime("%Y-%m-%d")
-        return self.query
+        self.specific_query = {
+            "index": 0,
+            "languageCode": "es",
+            "startDate": None,
+            "endDate": None,
+            "hotelCode": None,
+            "rooms": [
+                {
+                "adults": adults,
+                "children": children,
+                "childrenAges": children_ages_list
+                }
+            ],
+            "coupon": "",
+            "couponType": "Discount"
+            }
+
+    def get_generic_hotels_query(self, start_date: datetime, end_date: datetime):
+        self.generic_query["startDate"] = start_date.strftime("%Y-%m-%d")
+        self.generic_query["endDate"] = end_date.strftime("%Y-%m-%d")
+        return self.generic_query
+    
+    def get_specific_hotel_query(self, start_date: datetime, end_date: datetime):
+        self.specific_query["startDate"] = start_date.strftime("%Y-%m-%d")
+        self.specific_query["endDate"] = end_date.strftime("%Y-%m-%d")
+        self.specific_query["hotelCode"] = self.HOTEL_CARIBE_CODE
+        return self.specific_query
 
     def add_hotel(self, hotel: HotelRate):
         self.hotels_rate.append(hotel)
@@ -138,11 +161,10 @@ class DownloadPrices:
             while current_date <= self.date_end:
     
                 end_date = current_date + timedelta(days=1)
-                payload = json.dumps(
-                    portaventura_rates.get_query(start_date=current_date, end_date=end_date)
-                )
 
-                response = self.make_request(payload)
+                response = self.make_generic_hotels_request(portaventura_rates= portaventura_rates, 
+                                             start_date=current_date, 
+                                             end_date=end_date)
 
                 if response.status_code == 200:
                     rates_json = response.json()
@@ -151,6 +173,28 @@ class DownloadPrices:
                             hotel_rate = HotelRate(current_date, hotel_data)
                             portaventura_rates.add_hotel(hotel=hotel_rate)
 
+                            if hotel_data["hotelCode"] == portaventura_rates.HOTEL_CARIBE_CODE:
+                                if hotel_data["ratePlan"] is not None:
+                                    response = self.make_specific_hotel_request(portaventura_rates= portaventura_rates, 
+                                                                start_date=current_date, 
+                                                                end_date=end_date)
+                                    
+                                    if response.status_code == 200:
+                                        rates_json = response.json()
+                                        room_type_to_find = 'Deluxe Superior Club San Juan'
+                                        room_type = self.find_room_type(rates_json, room_type_to_find)
+                                        min_rate = min((room['averageRates'][0]['rate'] for room in room_type), default=999999)
+                                        temp = {
+                                                "hotelName":room_type[0]["roomTypeName"],
+                                                "ratePlan":{
+                                                    "rate": min_rate,
+                                                    "rateOld": None,
+                                                    "discount": 0
+                                                }
+                                            }
+                                        hotel_rate = HotelRate(current_date, temp)
+                                        portaventura_rates.add_hotel(hotel=hotel_rate)
+                                
                 current_date += self.step
                 progress.update(analysing_task, advance=1)
 
@@ -160,9 +204,31 @@ class DownloadPrices:
         with open(file_path, "w") as archivo:
             archivo.write(portaventura_rates.to_json())
 
-    def make_request(self, payload):
+    def make_generic_hotels_request(self, portaventura_rates:PortaventuraRates, start_date:str, end_date: str):
         url = "https://book.portaventuraworld.com/funnel/hotels/chain"
         headers = {
             "Content-Type": "application/json"
         }
+
+        payload = json.dumps(
+                    portaventura_rates.get_generic_hotels_query(start_date=start_date, end_date=end_date)
+                )
+        
         return requests.post(url, data=payload, headers=headers)
+    
+    def make_specific_hotel_request(self, portaventura_rates:PortaventuraRates, start_date:str, end_date: str):
+        url = "https://book.portaventuraworld.com/funnel/hotels/rooms"
+        headers = {
+            "Content-Type": "application/json"
+        }
+
+        payload = json.dumps(
+                    portaventura_rates.get_specific_hotel_query(start_date=start_date, end_date=end_date)
+                )
+        
+        return requests.post(url, data=payload, headers=headers)
+    
+
+    def find_room_type(self, data, room_type_to_find):
+        found_room_types = [room_type for room_type in data['allRoomTypes'] if room_type.get('roomTypeName') == room_type_to_find]
+        return found_room_types
