@@ -10,8 +10,8 @@ def cli():
 @cli.command()
 @click.option('--date-ini', type=click.DateTime(formats=["%Y-%m-%d"]), help='Start date in YYYY-MM-DD format')
 @click.option('--date-end', type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
-@click.option('--children', default=0, type=int, help='Number of children')
-@click.option('--children-ages', default="", type=str, help='Ages of children (comma-separated)')
+@click.option('--children', default=2, type=int, help='Number of children')
+@click.option('--children-ages', default="6,9", type=str, help='Ages of children (comma-separated)')
 @click.option('--adults', default=2, type=int, help='Number of adults')
 def download_rates(date_ini: datetime, 
                    date_end: datetime, 
