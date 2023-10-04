@@ -34,6 +34,7 @@ class PortaventuraRates:
     query: dict
     hotels_rate = []
     HOTEL_CARIBE_CODE = 112622
+    HOTEL_COLORADO_CREEK_CODE = 112624
 
     def __init__(self, 
                  date_start: datetime, 
@@ -91,10 +92,10 @@ class PortaventuraRates:
         self.generic_query["endDate"] = end_date.strftime("%Y-%m-%d")
         return self.generic_query
     
-    def get_specific_hotel_query(self, start_date: datetime, end_date: datetime):
+    def get_specific_hotel_query(self, hotel_code: str, start_date: datetime, end_date: datetime):
         self.specific_query["startDate"] = start_date.strftime("%Y-%m-%d")
         self.specific_query["endDate"] = end_date.strftime("%Y-%m-%d")
-        self.specific_query["hotelCode"] = self.HOTEL_CARIBE_CODE
+        self.specific_query["hotelCode"] = hotel_code
         return self.specific_query
 
     def add_hotel(self, hotel: HotelRate):
@@ -170,30 +171,27 @@ class DownloadPrices:
                     rates_json = response.json()
                     if "hotels" in rates_json:
                         for hotel_data in rates_json["hotels"]:
-                            hotel_rate = HotelRate(current_date, hotel_data)
-                            portaventura_rates.add_hotel(hotel=hotel_rate)
+                            if hotel_data["isAvailable"] == True:
+                                hotel_rate = HotelRate(current_date, hotel_data)
+                                portaventura_rates.add_hotel(hotel=hotel_rate)
+                            
+                                if hotel_data["hotelCode"] == portaventura_rates.HOTEL_CARIBE_CODE:
+                                    hotel_rate = self.get_specific_room_type_rates(hotel_code=hotel_data["hotelCode"],
+                                                                                portaventura_rates=portaventura_rates,
+                                                                                start_date=current_date,
+                                                                                end_date=end_date,
+                                                                                hotel_data=hotel_data, 
+                                                                                room_type_to_find="Deluxe Superior Club San Juan")
+                                    if hotel_rate is not None: portaventura_rates.add_hotel(hotel=hotel_rate)
 
-                            if hotel_data["hotelCode"] == portaventura_rates.HOTEL_CARIBE_CODE:
-                                if hotel_data["ratePlan"] is not None:
-                                    response = self.make_specific_hotel_request(portaventura_rates= portaventura_rates, 
-                                                                start_date=current_date, 
-                                                                end_date=end_date)
-                                    
-                                    if response.status_code == 200:
-                                        rates_json = response.json()
-                                        room_type_to_find = 'Deluxe Superior Club San Juan'
-                                        room_type = self.find_room_type(rates_json, room_type_to_find)
-                                        min_rate = min((room['averageRates'][0]['rate'] for room in room_type), default=999999)
-                                        temp = {
-                                                "hotelName":room_type[0]["roomTypeName"],
-                                                "ratePlan":{
-                                                    "rate": min_rate,
-                                                    "rateOld": None,
-                                                    "discount": 0
-                                                }
-                                            }
-                                        hotel_rate = HotelRate(current_date, temp)
-                                        portaventura_rates.add_hotel(hotel=hotel_rate)
+                                elif hotel_data["hotelCode"] == portaventura_rates.HOTEL_COLORADO_CREEK_CODE:
+                                    hotel_rate = self.get_specific_room_type_rates(hotel_code=hotel_data["hotelCode"],
+                                                                                portaventura_rates=portaventura_rates,
+                                                                                start_date=current_date,
+                                                                                end_date=end_date,
+                                                                                hotel_data=hotel_data, 
+                                                                                room_type_to_find="Deluxe Colorado")
+                                    if hotel_rate is not None: portaventura_rates.add_hotel(hotel=hotel_rate)
                                 
                 current_date += self.step
                 progress.update(analysing_task, advance=1)
@@ -204,6 +202,33 @@ class DownloadPrices:
         with open(file_path, "w") as archivo:
             archivo.write(portaventura_rates.to_json())
 
+    
+
+    def get_specific_room_type_rates(self, hotel_code:str, portaventura_rates, start_date, end_date, hotel_data, room_type_to_find:str):
+            if hotel_data["ratePlan"] is not None:
+                response = self.make_specific_hotel_request(hotel_code=hotel_code,
+                                                            portaventura_rates=portaventura_rates, 
+                                                            start_date=start_date, 
+                                                            end_date=end_date)
+                
+                if response.status_code == 200:
+                    rates_json = response.json()
+                    room_type = self.find_room_type(rates_json, room_type_to_find)
+                    hotel_rate = None
+                    if len(room_type) > 0:
+                        min_rate = min((room['averageRates'][0]['rate'] for room in room_type), default=999999)
+                        
+                        temp = {
+                                "hotelName":room_type[0]["roomTypeName"],
+                                "ratePlan":{
+                                    "rate": min_rate,
+                                    "rateOld": None,
+                                    "discount": 0
+                                }
+                            }
+                        hotel_rate = HotelRate(start_date, temp)
+                    return hotel_rate    
+    
     def make_generic_hotels_request(self, portaventura_rates:PortaventuraRates, start_date:str, end_date: str):
         url = "https://book.portaventuraworld.com/funnel/hotels/chain"
         headers = {
@@ -216,14 +241,14 @@ class DownloadPrices:
         
         return requests.post(url, data=payload, headers=headers)
     
-    def make_specific_hotel_request(self, portaventura_rates:PortaventuraRates, start_date:str, end_date: str):
+    def make_specific_hotel_request(self, hotel_code:str, portaventura_rates:PortaventuraRates, start_date:str, end_date: str):
         url = "https://book.portaventuraworld.com/funnel/hotels/rooms"
         headers = {
             "Content-Type": "application/json"
         }
 
         payload = json.dumps(
-                    portaventura_rates.get_specific_hotel_query(start_date=start_date, end_date=end_date)
+                    portaventura_rates.get_specific_hotel_query(hotel_code=hotel_code, start_date=start_date, end_date=end_date)
                 )
         
         return requests.post(url, data=payload, headers=headers)

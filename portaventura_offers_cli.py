@@ -33,15 +33,29 @@ def find_offers(data_path):
     find_offers_instance.print_unique_hotel_names()
     click.echo("----------------------------------")
     find_offers_instance.print_last_date_with_rate()
+    print("-------------Lowest rates all hotels:---------------")
     find_offers_instance.print_minor_rates_all_hotels()
+    print("-------------Lowest rates only Portaventura hotels:---------------")
     find_offers_instance.print_minor_rates_only_port_aventura()
+    print("-------------Lowest rates Caribe:---------------")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Caribe")
-    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Mansión de Lucy")
-    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Colorado Creek")
-    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Gold River")
-    find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
-    find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
+    print("-------------Lowest rates Deluxe Superior Club San Juan:---------------")
     find_offers_instance.print_minor_rates_only_this_hotel("Deluxe Superior Club San Juan")
+    print("-------------Lowest rates Mansión de Lucy:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Mansión de Lucy")
+    print("-------------Lowest rates Colorado Creek:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Colorado Creek")
+    print("-------------Lowest rates Deluxe Colorado:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Deluxe Colorado")
+    print("-------------Lowest rates Gold River:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Gold River")
+    print("-------------Lowest rates PortAventura:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
+    print("-------------Lowest rates El Paso:---------------")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
+
+
+    
     
 
 
