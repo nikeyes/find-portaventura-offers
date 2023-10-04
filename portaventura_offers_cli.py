@@ -10,8 +10,8 @@ def cli():
 @cli.command()
 @click.option('--date-ini', type=click.DateTime(formats=["%Y-%m-%d"]), help='Start date in YYYY-MM-DD format')
 @click.option('--date-end', type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
-@click.option('--children', default=0, type=int, help='Number of children')
-@click.option('--children-ages', default="", type=str, help='Ages of children (comma-separated)')
+@click.option('--children', default=2, type=int, help='Number of children')
+@click.option('--children-ages', default="6,9", type=str, help='Ages of children (comma-separated)')
 @click.option('--adults', default=2, type=int, help='Number of adults')
 def download_rates(date_ini: datetime, 
                    date_end: datetime, 
@@ -38,6 +38,10 @@ def find_offers(data_path):
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Caribe")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Mansión de Lucy")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel Colorado Creek")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel Gold River")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
+    find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
+
 
 if __name__ == '__main__':
     cli()

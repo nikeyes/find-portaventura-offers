@@ -52,7 +52,10 @@ class FindOffers:
         # Imprimir los 5 objetos con las tasas más bajas
         print("-------------Lowest rates:---------------")
         for hotel_rate in five_minor_rates:
-            print(f"Date: {hotel_rate['date']}, Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
+            date_obj = datetime.datetime.strptime(hotel_rate['date'], "%Y-%m-%d")
+            day_of_week = date_obj.strftime('%A')
+
+            print(f"Date: {hotel_rate['date']} ({day_of_week}), Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
 
 
     def print_last_date_with_rate(self):
