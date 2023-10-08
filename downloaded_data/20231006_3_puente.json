@@ -1,0 +1,121 @@
+{
+    "download_date_start": "2023-12-04",
+    "download_date_end": "2023-12-11",
+    "generic_query": {
+        "languageCode": "es",
+        "startDate": "2023-12-11",
+        "endDate": "2023-12-12",
+        "children": 2,
+        "adults": 3,
+        "childrenAges": [
+            6,
+            9
+        ],
+        "rooms": 1,
+        "maxChildren": 2,
+        "maxAdults": 3,
+        "coupon": "",
+        "couponType": "Discount",
+        "roomsArray": [
+            {
+                "adults": 3,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    9
+                ]
+            }
+        ]
+    },
+    "specific_query": {
+        "index": 0,
+        "languageCode": "es",
+        "startDate": null,
+        "endDate": null,
+        "hotelCode": null,
+        "rooms": [
+            {
+                "adults": 3,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    9
+                ]
+            }
+        ],
+        "coupon": "",
+        "couponType": "Discount"
+    },
+    "hotels_rate": [
+        {
+            "date": "2023-12-04",
+            "name": "Hotel Gold River",
+            "rate": 369.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-05",
+            "name": "Hotel Gold River",
+            "rate": 518.35,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Gold River",
+            "rate": 544.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Gold River",
+            "rate": 544.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel PortAventura",
+            "rate": 395.85,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Gold River",
+            "rate": 518.35,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-09",
+            "name": "Hotel PortAventura",
+            "rate": 395.85,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-09",
+            "name": "Hotel Gold River",
+            "rate": 518.35,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-10",
+            "name": "Hotel Gold River",
+            "rate": 360.85,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-11",
+            "name": "Hotel Gold River",
+            "rate": 343.35,
+            "rate_old": null,
+            "discount": 0
+        }
+    ]
+}

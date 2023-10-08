@@ -1,0 +1,2480 @@
+{
+    "download_date_start": "2023-10-05",
+    "download_date_end": "2023-12-08",
+    "generic_query": {
+        "languageCode": "es",
+        "startDate": "2023-12-08",
+        "endDate": "2023-12-09",
+        "children": 2,
+        "adults": 2,
+        "childrenAges": [
+            6,
+            9
+        ],
+        "rooms": 1,
+        "maxChildren": 2,
+        "maxAdults": 2,
+        "coupon": "",
+        "couponType": "Discount",
+        "roomsArray": [
+            {
+                "adults": 2,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    9
+                ]
+            }
+        ]
+    },
+    "specific_query": {
+        "index": 0,
+        "languageCode": "es",
+        "startDate": "2023-12-08",
+        "endDate": "2023-12-09",
+        "hotelCode": 112624,
+        "rooms": [
+            {
+                "adults": 2,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    9
+                ]
+            }
+        ],
+        "coupon": "",
+        "couponType": "Discount"
+    },
+    "hotels_rate": [
+        {
+            "date": "2023-10-05",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-05",
+            "name": "Hotel Vila Centric",
+            "rate": 166.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-05",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-05",
+            "name": "Hotel Gold River",
+            "rate": 220.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-06",
+            "name": "Hotel Pirámide Salou",
+            "rate": 167,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-06",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-06",
+            "name": "Hotel PortAventura",
+            "rate": 213.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-06",
+            "name": "Hotel Gold River",
+            "rate": 269.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Hotel Caribe",
+            "rate": 356.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 577.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Hotel El Paso",
+            "rate": 356.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Hotel PortAventura",
+            "rate": 374.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Hotel Colorado Creek",
+            "rate": 401.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Deluxe Colorado",
+            "rate": 540,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-07",
+            "name": "Hotel Gold River",
+            "rate": 444.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-08",
+            "name": "Hotel Caribe",
+            "rate": 335.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-08",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 557.48,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-08",
+            "name": "Hotel PortAventura",
+            "rate": 346.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-09",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-09",
+            "name": "Hotel Roulette",
+            "rate": 167.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-09",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-09",
+            "name": "Hotel El Paso",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-09",
+            "name": "Hotel Gold River",
+            "rate": 227.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-10",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-10",
+            "name": "Hotel Vila Centric",
+            "rate": 159.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-10",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-10",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-10",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel Roulette",
+            "rate": 167.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel El Paso",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel Gold River",
+            "rate": 234.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-11",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 855.1,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel Pirámide Salou",
+            "rate": 230,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel Caribe",
+            "rate": 279.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 514.36,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel El Paso",
+            "rate": 335.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel PortAventura",
+            "rate": 374.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel Colorado Creek",
+            "rate": 387.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Deluxe Colorado",
+            "rate": 525,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-12",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1275,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Hotel Caribe",
+            "rate": 244.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 523.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Hotel Pirámide Salou",
+            "rate": 251,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Hotel El Paso",
+            "rate": 293.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Hotel PortAventura",
+            "rate": 374.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Hotel Colorado Creek",
+            "rate": 378.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-13",
+            "name": "Deluxe Colorado",
+            "rate": 495,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Vila Centric",
+            "rate": 243.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Caribe",
+            "rate": 244.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 546.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Pirámide Salou",
+            "rate": 265,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel El Paso",
+            "rate": 293.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel PortAventura",
+            "rate": 339.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Gold River",
+            "rate": 353.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Colorado Creek",
+            "rate": 359.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Deluxe Colorado",
+            "rate": 517.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-14",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1266.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-15",
+            "name": "Hotel Pirámide Salou",
+            "rate": 148.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-15",
+            "name": "Hotel Vila Centric",
+            "rate": 159.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-15",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-15",
+            "name": "Hotel El Paso",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-15",
+            "name": "Hotel Gold River",
+            "rate": 241.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-16",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-16",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-16",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-16",
+            "name": "Hotel El Paso",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-16",
+            "name": "Hotel Gold River",
+            "rate": 241.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-17",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-17",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-17",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-17",
+            "name": "Hotel El Paso",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-17",
+            "name": "Hotel Gold River",
+            "rate": 241.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-18",
+            "name": "Hotel Pirámide Salou",
+            "rate": 153,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-18",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-18",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-18",
+            "name": "Hotel El Paso",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-18",
+            "name": "Hotel Gold River",
+            "rate": 241.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-19",
+            "name": "Hotel Pirámide Salou",
+            "rate": 167,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-19",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-19",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-19",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-19",
+            "name": "Hotel Gold River",
+            "rate": 227.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel Pirámide Salou",
+            "rate": 160,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel Caribe",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 491.26,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel PortAventura",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel Gold River",
+            "rate": 269.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-20",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 984.3,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Hotel Pirámide Salou",
+            "rate": 251,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Hotel Caribe",
+            "rate": 363.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 600.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Hotel PortAventura",
+            "rate": 409.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Hotel Colorado Creek",
+            "rate": 415.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-21",
+            "name": "Deluxe Colorado",
+            "rate": 534,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Caribe",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 377.3,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel El Paso",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Gold River",
+            "rate": 227.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Colorado Creek",
+            "rate": 233.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Deluxe Colorado",
+            "rate": 444,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-22",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 935,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-23",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-23",
+            "name": "Hotel Gold River",
+            "rate": 367.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-23",
+            "name": "Hotel Colorado Creek",
+            "rate": 373.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-23",
+            "name": "Deluxe Colorado",
+            "rate": 526.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-23",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 916.3,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-24",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-24",
+            "name": "Hotel El Paso",
+            "rate": 349.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-24",
+            "name": "Hotel Gold River",
+            "rate": 367.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-24",
+            "name": "Hotel Colorado Creek",
+            "rate": 425,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-24",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 982.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-25",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-25",
+            "name": "Hotel El Paso",
+            "rate": 279.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-25",
+            "name": "Hotel Gold River",
+            "rate": 318.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 429.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-25",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 979.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-26",
+            "name": "Hotel Gold River",
+            "rate": 290.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-26",
+            "name": "Hotel Colorado Creek",
+            "rate": 450.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-26",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 907.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Pirámide Salou",
+            "rate": 160,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Caribe",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 517.44,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 240.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Deluxe Colorado",
+            "rate": 472.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel PortAventura",
+            "rate": 255.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-27",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 948.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Hotel Vila Centric",
+            "rate": 236.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Hotel Colorado Creek",
+            "rate": 500.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Deluxe Colorado",
+            "rate": 696,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Hotel Caribe",
+            "rate": 524.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 731.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-28",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1278.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel Vila Centric",
+            "rate": 159.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel Caribe",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 475.86,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel PortAventura",
+            "rate": 199.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel Colorado Creek",
+            "rate": 205.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Deluxe Colorado",
+            "rate": 433.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-29",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Roulette",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Caribe",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 546.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel El Paso",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel PortAventura",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Gold River",
+            "rate": 213.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Colorado Creek",
+            "rate": 219.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Deluxe Colorado",
+            "rate": 555,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-30",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1361.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Roulette",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Caribe",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 585.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel El Paso",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Gold River",
+            "rate": 234.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel PortAventura",
+            "rate": 234.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Colorado Creek",
+            "rate": 240.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Deluxe Colorado",
+            "rate": 555,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-10-31",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1445,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Caribe",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 331.1,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel El Paso",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel PortAventura",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Gold River",
+            "rate": 213.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Colorado Creek",
+            "rate": 233.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Deluxe Colorado",
+            "rate": 345,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-01",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 970.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Roulette",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Caribe",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 331.1,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel El Paso",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Gold River",
+            "rate": 213.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel PortAventura",
+            "rate": 213.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 247.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Deluxe Colorado",
+            "rate": 345,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-02",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1009.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Roulette",
+            "rate": 167.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Caribe",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 354.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel PortAventura",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Gold River",
+            "rate": 199.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Colorado Creek",
+            "rate": 205.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Deluxe Colorado",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-03",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1001.3,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Roulette",
+            "rate": 237.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Caribe",
+            "rate": 244.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 600.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel PortAventura",
+            "rate": 290.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 331.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Deluxe Colorado",
+            "rate": 600,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Gold River",
+            "rate": 353.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-04",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1028.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-05",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-05",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-05",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-05",
+            "name": "Hotel Gold River",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-06",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-06",
+            "name": "Hotel Roulette",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-06",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-06",
+            "name": "Hotel Gold River",
+            "rate": 185.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-07",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-07",
+            "name": "Hotel Roulette",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-07",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-07",
+            "name": "Hotel Gold River",
+            "rate": 185.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-08",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-08",
+            "name": "Hotel Roulette",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-08",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-08",
+            "name": "Hotel Gold River",
+            "rate": 185.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-09",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-09",
+            "name": "Hotel Roulette",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-09",
+            "name": "Hotel El Paso",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-09",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel El Paso",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel PortAventura",
+            "rate": 220.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel Gold River",
+            "rate": 241.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-10",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 748,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Caribe",
+            "rate": 209.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 585.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel El Paso",
+            "rate": 237.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel PortAventura",
+            "rate": 248.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Colorado Creek",
+            "rate": 303.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Deluxe Colorado",
+            "rate": 585,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Gold River",
+            "rate": 339.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 911.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-12",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-12",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-12",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-13",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-13",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-14",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-14",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-15",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-15",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-16",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-16",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-17",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-17",
+            "name": "Hotel Gold River",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-17",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-17",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 817.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel Roulette",
+            "rate": 230.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel El Paso",
+            "rate": 237.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel PortAventura",
+            "rate": 248.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel Colorado Creek",
+            "rate": 268.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Deluxe Colorado",
+            "rate": 472.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel Gold River",
+            "rate": 276.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-18",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 943.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-19",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-19",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-19",
+            "name": "Hotel Gold River",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-20",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-20",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-21",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-21",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-22",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-22",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-23",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-23",
+            "name": "Hotel Gold River",
+            "rate": 178.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-24",
+            "name": "Hotel El Paso",
+            "rate": 181.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-24",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-24",
+            "name": "Hotel Roulette",
+            "rate": 202.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-24",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-24",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 912.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel Roulette",
+            "rate": 230.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel El Paso",
+            "rate": 237.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel PortAventura",
+            "rate": 276.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 282.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Deluxe Colorado",
+            "rate": 472.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel Gold River",
+            "rate": 290.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-25",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 943.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-26",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-26",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-26",
+            "name": "Hotel Gold River",
+            "rate": 206.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-27",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-27",
+            "name": "Hotel Gold River",
+            "rate": 192.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-28",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-28",
+            "name": "Hotel Gold River",
+            "rate": 217.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-29",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-29",
+            "name": "Hotel Gold River",
+            "rate": 216.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-30",
+            "name": "Hotel Roulette",
+            "rate": 174.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-11-30",
+            "name": "Hotel Gold River",
+            "rate": 229,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-01",
+            "name": "Hotel Vila Centric",
+            "rate": 185.72,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-01",
+            "name": "Hotel Roulette",
+            "rate": 188.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-01",
+            "name": "Hotel El Paso",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-01",
+            "name": "Hotel Gold River",
+            "rate": 215,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-01",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 817.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel Vila Centric",
+            "rate": 206.72,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel Roulette",
+            "rate": 249,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel El Paso",
+            "rate": 256,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel Gold River",
+            "rate": 286.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel PortAventura",
+            "rate": 286.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 292,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Deluxe Colorado",
+            "rate": 450,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-02",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 960.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-03",
+            "name": "Hotel Vila Centric",
+            "rate": 173.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-03",
+            "name": "Hotel Roulette",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-03",
+            "name": "Hotel Gold River",
+            "rate": 215,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-04",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-04",
+            "name": "Hotel Roulette",
+            "rate": 195.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-04",
+            "name": "Hotel Gold River",
+            "rate": 199.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-05",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-05",
+            "name": "Hotel Roulette",
+            "rate": 314.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-05",
+            "name": "Hotel Gold River",
+            "rate": 318.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-05",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 858.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Roulette",
+            "rate": 307.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel El Paso",
+            "rate": 314.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Colorado Creek",
+            "rate": 338.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Deluxe Colorado",
+            "rate": 457.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Gold River",
+            "rate": 339.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-06",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 1105,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Vila Centric",
+            "rate": 187.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Roulette",
+            "rate": 307.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel El Paso",
+            "rate": 314.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Gold River",
+            "rate": 339.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Colorado Creek",
+            "rate": 345.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Deluxe Colorado",
+            "rate": 412.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-07",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 960.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Vila Centric",
+            "rate": 222.12,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Roulette",
+            "rate": 293.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel El Paso",
+            "rate": 300.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Gold River",
+            "rate": 318.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel PortAventura",
+            "rate": 318.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Colorado Creek",
+            "rate": 324.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Deluxe Colorado",
+            "rate": 487.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-08",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 960.5,
+            "rate_old": null,
+            "discount": 0
+        }
+    ]
+}
