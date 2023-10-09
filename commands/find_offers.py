@@ -4,11 +4,18 @@ import json
 
 class FindOffers:
     data :json = None
+    date_ini: datetime
+    date_end: datetime
     hotels_rate = []
 
-    def __init__(self, data_file:str) -> None:
-        file_path = data_file
 
+    def __init__(self,
+                data_file:str,
+                date_ini: datetime,
+                date_end: datetime) -> None:
+        file_path = data_file
+        self.date_ini = date_ini
+        self.date_end = date_end
         with open(file_path, 'r') as json_file: 
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
@@ -24,7 +31,15 @@ class FindOffers:
             print(name)
 
     def print_minor_rates_only_port_aventura(self):
-        only_this_hotels = ["Hotel El Paso", "Hotel Colorado Creek","Hotel Gold River", "Hotel Mansión de Lucy", "Hotel PortAventura", "Hotel Caribe", "Hotel Roulette"]
+        only_this_hotels = ["Hotel El Paso", 
+                            "Hotel Colorado Creek",
+                            "Hotel Gold River", 
+                            "Hotel Mansión de Lucy", 
+                            "Hotel PortAventura", 
+                            "Hotel Caribe", 
+                            "Hotel Roulette",
+                            "Deluxe Colorado",
+                            "Deluxe Superior Club San Juan"]
 
         filtered_hotels = [hotel_rate for hotel_rate in self.hotels_rate if hotel_rate["name"] in only_this_hotels]
 
@@ -39,11 +54,13 @@ class FindOffers:
     
     def print_minor_rates_all_hotels(self):
             self.minor_rate(self.hotels_rate)
-
-
+    
     def minor_rate(self, hotels):
-        # minor_rate = min(hotels, key=lambda rate: rate.rate)
-        # print(minor_rate)
+
+        if self.date_ini is not None:
+            hotels = [hotel for hotel in hotels if hotel["date"] >= self.date_ini.strftime("%Y-%m-%d")]
+        if self.date_end is not None:
+            hotels = [hotel for hotel in hotels if hotel["date"] <= self.date_end.strftime("%Y-%m-%d")]
 
         ordered_rates = sorted(hotels, key=lambda rate: rate["rate"] if rate["rate"] is not None else float('inf'))
         

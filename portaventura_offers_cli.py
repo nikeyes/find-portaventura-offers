@@ -13,23 +13,32 @@ def cli():
 @click.option('--children', default=2, type=int, help='Number of children')
 @click.option('--children-ages', default="6,9", type=str, help='Ages of children (comma-separated)')
 @click.option('--adults', default=2, type=int, help='Number of adults')
+@click.option('--file-sufix', default="", type=str, help='Export filename sufix')
 def download_rates(date_ini: datetime, 
                    date_end: datetime, 
                    children: int,
                    children_ages: str,
-                   adults: int): 
+                   adults: int,
+                   file_sufix: str): 
     dp = DownloadPrices(date_ini=date_ini, 
                         date_end=date_end,
                         children = children,
                         children_ages=children_ages,
-                        adults=adults)
+                        adults=adults,
+                        file_sufix=file_sufix)
     dp.download()
     click.echo("Rates downloaded successfully.")
 
 @cli.command()
 @click.option('--data-path', type=click.Path(exists=True), help='Path to the data file')
-def find_offers(data_path):
-    find_offers_instance = FindOffers(data_path)
+@click.option('--date-ini', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='Start date in YYYY-MM-DD format')
+@click.option('--date-end', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
+def find_offers(data_path:str, date_ini:datetime, date_end:datetime):
+    find_offers_instance = FindOffers(data_file=data_path,
+                                      date_ini=date_ini, 
+                                      date_end=date_end)
+
+
     find_offers_instance.print_unique_hotel_names()
     click.echo("----------------------------------")
     find_offers_instance.print_last_date_with_rate()
