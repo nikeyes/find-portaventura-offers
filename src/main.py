@@ -1,7 +1,8 @@
 import click
 from datetime import datetime
-from commands.download_prices import DownloadPrices
+from commands.download_hotel_prices import DownloadPrices
 from commands.find_offers import FindOffers
+from commands.download_tickets_prices import DownloadTicketPrices
 
 @click.group()
 def cli():
@@ -39,6 +40,8 @@ def find_offers(data_path:str, date_ini:datetime, date_end:datetime):
                                       date_end=date_end)
 
 
+    from pprint import pprint
+
     find_offers_instance.print_unique_hotel_names()
     click.echo("----------------------------------")
     find_offers_instance.print_last_date_with_rate()
@@ -63,6 +66,58 @@ def find_offers(data_path:str, date_ini:datetime, date_end:datetime):
     print("-------------Lowest rates El Paso:---------------")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
 
+@cli.command()
+def get_best_days():
+    dp = DownloadTicketPrices()
+    occupancy = dp.get_dates_with_occupancy_low_high()
+    print(occupancy)
+
+
+
+# import smtplib
+# from email.mime.text import MIMEText
+# from email.mime.multipart import MIMEMultipart
+# from google.oauth2.credentials import Credentials
+# @cli.command()
+# def send_email():
+    
+#     # Configura las credenciales OAuth obtenidas de la Consola de Desarrolladores de Google
+#     credentials = Credentials.from_authorized_user_info({
+#         'client_id': 'TU_CLIENT_ID',
+#         'client_secret': 'TU_CLIENT_SECRET',
+#         'token': 'TU_TOKEN_DE_ACCESO'
+#     })
+
+#     # Configura la información del correo
+#     sender_email = 'tucorreo@gmail.com'
+#     receiver_email = 'destinatario@example.com'
+#     subject = 'Asunto del correo'
+#     message = 'Cuerpo del correo'
+
+#     # Crea el mensaje
+#     msg = MIMEMultipart()
+#     msg['From'] = sender_email
+#     msg['To'] = receiver_email
+#     msg['Subject'] = subject
+#     msg.attach(MIMEText(message, 'plain'))
+
+#     try:
+#         # Conéctate al servidor SMTP de Gmail
+#         server = smtplib.SMTP('smtp.gmail.com', 587)
+#         server.starttls()
+
+#         # Inicia sesión con las credenciales OAuth
+#         server.login(sender_email, credentials)
+
+#         # Envía el correo
+#         server.sendmail(sender_email, receiver_email, msg.as_string())
+#         print('El correo se ha enviado con éxito.')
+
+#     except Exception as e:
+#         print(f'Error al enviar el correo: {str(e)}')
+
+#     finally:
+#         server.quit()
 
     
     

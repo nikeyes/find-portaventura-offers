@@ -10,7 +10,26 @@ readme = "README.md"
 python = "^3.10"
 rich = "^13.6.0"
 requests = "^2.31.0"
+google-auth-oauthlib = "^1.1.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    "tests/integration_tests",
+    "tests/unit_tests"
+]
+pythonpath = [
+    "src"
+]
+python_files = ["test_*.py", "*_test.py", "*_should.py", ]
+python_classes = ["Test", "Acceptance"]
+python_functions = ["test", "*_test"]
+# addopts = "-v --cov=src --no-cov-on-fail --cov-report=term-missing tests/"
 
 [build-system]
 requires = ["poetry-core"]

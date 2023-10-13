@@ -207,9 +207,6 @@ class DownloadPrices:
             archivo.write(portaventura_rates.to_json())
 
         
-
-    
-
     def get_specific_room_type_rates(self, hotel_code:str, portaventura_rates, start_date, end_date, hotel_data, room_type_to_find:str):
             if hotel_data["ratePlan"] is not None:
                 response = self.make_specific_hotel_request(hotel_code=hotel_code,
@@ -258,7 +255,6 @@ class DownloadPrices:
                 )
         
         return requests.post(url, data=payload, headers=headers)
-    
 
     def find_room_type(self, data, room_type_to_find):
         found_room_types = [room_type for room_type in data['allRoomTypes'] if room_type.get('roomTypeName') == room_type_to_find]

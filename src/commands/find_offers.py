@@ -1,12 +1,14 @@
 from dataclasses import dataclass
 import datetime
 import json
+from commands.download_tickets_prices import DownloadTicketPrices
 
 class FindOffers:
     data :json = None
     date_ini: datetime
     date_end: datetime
     hotels_rate = []
+    ticket_prices = []
 
 
     def __init__(self,
@@ -19,6 +21,10 @@ class FindOffers:
         with open(file_path, 'r') as json_file: 
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
+
+        tickets_prices = DownloadTicketPrices()
+
+        self.occupancy_low_high = tickets_prices.get_dates_with_occupancy_low_high()
 
     def print_unique_hotel_names(self):
         unic_names = set()
@@ -66,12 +72,13 @@ class FindOffers:
         
         five_minor_rates = ordered_rates[:5]
 
-        # Imprimir los 5 objetos con las tasas más bajas
         for hotel_rate in five_minor_rates:
             date_obj = datetime.datetime.strptime(hotel_rate['date'], "%Y-%m-%d")
             day_of_week = date_obj.strftime('%A')
-
-            print(f"Date: {hotel_rate['date']} ({day_of_week}), Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
+            next_day = (date_obj + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+            occupancy = self.get_occupancy(hotel_rate['date'])
+            occupancy_next_day = self.get_occupancy(next_day)
+            print(f"Date: {hotel_rate['date']} ({day_of_week})({occupancy})({occupancy_next_day}), Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
 
 
     def print_last_date_with_rate(self):
@@ -81,3 +88,8 @@ class FindOffers:
             print("The last date with a non-null rate is:", result["date"], result["name"], result["rate"])
         else:
             print("No non-null rates were found on any date.")
+
+    def get_occupancy(self, day:str):
+        for occupancy in self.occupancy_low_high:
+            if occupancy["day"] == day:
+                return occupancy["occupation"]
