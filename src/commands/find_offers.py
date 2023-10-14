@@ -1,14 +1,17 @@
 from dataclasses import dataclass
 import datetime
 import json
-from commands.download_tickets_prices import DownloadTicketPrices
+from typing import List
+
+from commands.download_tickets_prices import TicketPrice
+from commands.portaventura_occupancy import PortaventuraOccupancy
 
 class FindOffers:
     data :json = None
     date_ini: datetime
     date_end: datetime
     hotels_rate = []
-    ticket_prices = []
+    portaventura_occupancy: PortaventuraOccupancy = None
 
 
     def __init__(self,
@@ -18,13 +21,18 @@ class FindOffers:
         file_path = data_file
         self.date_ini = date_ini
         self.date_end = date_end
+        
         with open(file_path, 'r') as json_file: 
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
 
-        tickets_prices = DownloadTicketPrices()
+        with open("downloaded_data/tickets_20231015.json", 'r') as f:
+            data = json.load(f)
+            ticket_prices: List[TicketPrice] = [TicketPrice(date=price['date'], price=price['price']) for price in data]
 
-        self.occupancy_low_high = tickets_prices.get_dates_with_occupancy_low_high()
+        self.portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        
+
 
     def print_unique_hotel_names(self):
         unic_names = set()
@@ -76,8 +84,8 @@ class FindOffers:
             date_obj = datetime.datetime.strptime(hotel_rate['date'], "%Y-%m-%d")
             day_of_week = date_obj.strftime('%A')
             next_day = (date_obj + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-            occupancy = self.get_occupancy(hotel_rate['date'])
-            occupancy_next_day = self.get_occupancy(next_day)
+            occupancy = self.portaventura_occupancy.get_occupancy(hotel_rate['date'])
+            occupancy_next_day = self.portaventura_occupancy.get_occupancy(next_day)
             print(f"Date: {hotel_rate['date']} ({day_of_week})({occupancy})({occupancy_next_day}), Hotel Name: {hotel_rate['name']}, Rate: {hotel_rate['rate']}")
 
 
@@ -89,7 +97,4 @@ class FindOffers:
         else:
             print("No non-null rates were found on any date.")
 
-    def get_occupancy(self, day:str):
-        for occupancy in self.occupancy_low_high:
-            if occupancy["day"] == day:
-                return occupancy["occupation"]
+   

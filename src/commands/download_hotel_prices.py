@@ -202,7 +202,7 @@ class DownloadPrices:
 
             progress.update(analysing_task, completed=num_days)
 
-        file_path = os.path.join("downloaded_data", f"{datetime.today().strftime('%Y%m%d')}_{self.file_sufix}.json")
+        file_path = os.path.join("downloaded_data", f"hotels_{datetime.today().strftime('%Y%m%d')}_{self.file_sufix}.json")
         with open(file_path, "w") as archivo:
             archivo.write(portaventura_rates.to_json())
 

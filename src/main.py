@@ -21,6 +21,10 @@ def download_rates(date_ini: datetime,
                    children_ages: str,
                    adults: int,
                    file_sufix: str): 
+    
+    dtp = DownloadTicketPrices()
+    dtp.download_and_save_to_file()
+
     dp = DownloadPrices(date_ini=date_ini, 
                         date_end=date_end,
                         children = children,
@@ -29,6 +33,13 @@ def download_rates(date_ini: datetime,
                         file_sufix=file_sufix)
     dp.download()
     click.echo("Rates downloaded successfully.")
+
+
+@cli.command()
+def download_ticket_prices():
+    dtp = DownloadTicketPrices()
+    dtp.download()
+
 
 @cli.command()
 @click.option('--data-path', type=click.Path(exists=True), help='Path to the data file')
@@ -65,12 +76,6 @@ def find_offers(data_path:str, date_ini:datetime, date_end:datetime):
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel PortAventura")
     print("-------------Lowest rates El Paso:---------------")
     find_offers_instance.print_minor_rates_only_this_hotel("Hotel El Paso")
-
-@cli.command()
-def get_best_days():
-    dp = DownloadTicketPrices()
-    occupancy = dp.get_dates_with_occupancy_low_high()
-    print(occupancy)
 
 
 

@@ -1,11 +1,28 @@
+from dataclasses import dataclass
+from datetime import datetime
+import os
+from typing import List
 import requests
 import json
+
+@dataclass
+class TicketPrice:
+    date: str
+    price: int
+
 
 class DownloadTicketPrices:
     def __init__(self) -> None:
         pass
 
-    def get_all_tickets_prices(self):
+    def download_and_save_to_file(self):
+        ticket_prices = self.download()
+        
+        file_path = os.path.join("downloaded_data", f"tickets_{datetime.today().strftime('%Y%m%d')}.json")
+        with open(file_path, "w") as archivo:
+            archivo.write(json.dumps([price.__dict__ for price in ticket_prices], indent=4))
+
+    def download(self) -> List[TicketPrice]:
         reqUrl = "https://book.portaventuraworld.com/funnel/tickets/calendar/es?language=es&ids=83"
 
         headersList = {
@@ -16,73 +33,12 @@ class DownloadTicketPrices:
         payload = ""
 
         response = requests.request("GET", reqUrl, data=payload,  headers=headersList)
-        return response
-
-    def get_lowest_price(self, data):
-        prices = []
-        for day in data:
-            if "952719" in data[day]:
-                prices.append(data[day]["952719"]["price"])
-
-        sorted_prices = sorted(list(set(prices)))
-        
-        return sorted_prices[0]
-    
-    def get_higher_price(self, data):
-        prices = []
-        for day in data:
-            if "952719" in data[day]:
-                prices.append(data[day]["952719"]["price"])
-
-        sorted_prices = sorted(list(set(prices)))
-        
-        return sorted_prices[-1]
-
-    
-    def get_second_lowest_price(self, data):
-        prices = []
-        for day in data:
-            if "952719" in data[day]:
-                prices.append(data[day]["952719"]["price"])
-
-        sorted_prices = sorted(list(set(prices)))
-        
-        return sorted_prices[1]
-    
-
-    def get_second_higher_price(self, data):
-        prices = []
-        for day in data:
-            if "952719" in data[day]:
-                prices.append(data[day]["952719"]["price"])
-
-        sorted_prices = sorted(list(set(prices)))
-        
-        return sorted_prices[-2]
-    
-    
-    def get_dates_with_occupancy_low_high(self):
-        
-        response = self.get_all_tickets_prices()
 
         data = json.loads(response.text)
 
-        lowest_price = self.get_lowest_price(data)
-        second_lowest_price = self.get_second_lowest_price(data)
-
-        higher_price = self.get_higher_price(data)
-        second_higher_price = self.get_second_higher_price(data)
+        ticket_prices: List[TicketPrice] = []
+        for date, prices in data.items():
+            if '952719' in prices:
+                ticket_prices.append(TicketPrice(date=date, price=prices['952719']['price']))
         
-        price_days = []
-
-        for day in data:
-            if "952719" in data[day]:
-                price = data[day]["952719"]["price"]
-                if price == lowest_price or price == second_lowest_price:
-                    price_days.append({"day":day,"price":price, "occupation":"low"})
-                if price == higher_price or price == second_higher_price:
-                    price_days.append({"day":day,"price":price, "occupation":"high"})
-
-        return price_days
-
-
+        return ticket_prices
