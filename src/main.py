@@ -50,8 +50,8 @@ def find_offers(hotel_prices:str,
                 ticket_prices:str, 
                 date_ini:datetime, 
                 date_end:datetime):
-    find_offers_instance = FindOffers(hotel_prices=hotel_prices,
-                                      ticket_prices=ticket_prices,
+    find_offers_instance = FindOffers(hotel_prices_file=hotel_prices,
+                                      ticket_prices_file=ticket_prices,
                                       date_ini=date_ini, 
                                       date_end=date_end)
 
