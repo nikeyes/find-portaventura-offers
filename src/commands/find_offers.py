@@ -15,18 +15,19 @@ class FindOffers:
 
 
     def __init__(self,
-                data_file:str,
+                hotel_prices:str,
+                ticket_prices:str,
                 date_ini: datetime,
                 date_end: datetime) -> None:
-        file_path = data_file
+        
         self.date_ini = date_ini
         self.date_end = date_end
         
-        with open(file_path, 'r') as json_file: 
+        with open(hotel_prices, 'r') as json_file: 
             self.data = json.load(json_file)
             self.hotels_rate = self.data["hotels_rate"]
 
-        with open("downloaded_data/tickets_20231015.json", 'r') as f:
+        with open(ticket_prices, 'r') as f:
             data = json.load(f)
             ticket_prices: List[TicketPrice] = [TicketPrice(date=price['date'], price=price['price']) for price in data]
 
