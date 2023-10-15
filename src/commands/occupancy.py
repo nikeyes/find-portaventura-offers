@@ -3,7 +3,7 @@ from typing import List
 from commands.download_tickets_prices import TicketPrice
 
 
-class PortaventuraOccupancy:
+class Occupancy:
     ticket_prices: List[TicketPrice]
     days_occupancy_low_high: List[dict] = []
 

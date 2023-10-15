@@ -1,8 +1,8 @@
 import unittest
 from src.commands.download_tickets_prices import TicketPrice
-from src.commands.portaventura_occupancy import PortaventuraOccupancy
+from src.commands.occupancy import Occupancy
 
-class TestPortaventuraOccupancy(unittest.TestCase):
+class TestOccupancy(unittest.TestCase):
 
     def setUp(self):
         ticket_prices = [ 
@@ -15,24 +15,24 @@ class TestPortaventuraOccupancy(unittest.TestCase):
             TicketPrice(date="2022-01-07", price=52),
             TicketPrice(date="2022-01-08", price=48)
             ]
-        self.portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        self.occupancy = Occupancy(ticket_prices=ticket_prices)
 
     def test_get_occupancy_high_day(self):
-        result = self.portaventura_occupancy.get_occupancy("2022-01-01")
+        result = self.occupancy.get_occupancy("2022-01-01")
         self.assertEqual(result, "high")
     
     def test_get_occupancy_second_high_day(self):
-        result = self.portaventura_occupancy.get_occupancy("2022-01-07")
+        result = self.occupancy.get_occupancy("2022-01-07")
         self.assertEqual(result, "high")
 
     def test_get_occupancy_low_day(self):
-        result = self.portaventura_occupancy.get_occupancy("2022-01-03")
+        result = self.occupancy.get_occupancy("2022-01-03")
         self.assertEqual(result, "low")
     
     def test_get_occupancy_second_low_day(self):
-        result = self.portaventura_occupancy.get_occupancy("2022-01-04")
+        result = self.occupancy.get_occupancy("2022-01-04")
         self.assertEqual(result, "low")
 
     def test_get_occupancy_nonexistent_day(self):
-        result = self.portaventura_occupancy.get_occupancy("2022-01-09")
+        result = self.occupancy.get_occupancy("2022-01-09")
         self.assertIsNone(result)

@@ -1,6 +1,6 @@
 import unittest
 from src.commands.download_tickets_prices import TicketPrice
-from src.commands.portaventura_occupancy import PortaventuraOccupancy
+from src.commands.occupancy import Occupancy
 
 class TestDownloadTicketPrices(unittest.TestCase):
 
@@ -14,9 +14,9 @@ class TestDownloadTicketPrices(unittest.TestCase):
             TicketPrice(date="2022-01-05", price=40),
             ]
         
-        portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        occupancy = Occupancy(ticket_prices=ticket_prices)
         
-        lowest_price = portaventura_occupancy.get_lowest_price()
+        lowest_price = occupancy.get_lowest_price()
 
         self.assertEqual(lowest_price, 40)
     
@@ -30,9 +30,9 @@ class TestDownloadTicketPrices(unittest.TestCase):
             TicketPrice(date="2022-01-05", price=40),
             ]
         
-        portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        occupancy = Occupancy(ticket_prices=ticket_prices)
 
-        lowest_price = portaventura_occupancy.get_higher_price()
+        lowest_price = occupancy.get_higher_price()
 
         self.assertEqual(lowest_price, 60)
 
@@ -46,9 +46,9 @@ class TestDownloadTicketPrices(unittest.TestCase):
             TicketPrice(date="2022-01-05", price=40),
             ]
 
-        portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        occupancy = Occupancy(ticket_prices=ticket_prices)
         
-        second_lowest_price = portaventura_occupancy.get_second_lowest_price()
+        second_lowest_price = occupancy.get_second_lowest_price()
 
         self.assertEqual(second_lowest_price, 50)
     
@@ -62,9 +62,9 @@ class TestDownloadTicketPrices(unittest.TestCase):
             TicketPrice(date="2022-01-05", price=52),
             ]
 
-        portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        occupancy = Occupancy(ticket_prices=ticket_prices)
 
-        second_lowest_price = portaventura_occupancy.get_second_higher_price()
+        second_lowest_price = occupancy.get_second_higher_price()
 
         self.assertEqual(second_lowest_price, 52)
 
@@ -83,8 +83,8 @@ class TestDownloadTicketPrices(unittest.TestCase):
             TicketPrice(date="2022-01-08", price=48)
             ]
         
-        portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
-        result = portaventura_occupancy.get_dates_with_occupancy_low_high()
+        occupancy = Occupancy(ticket_prices=ticket_prices)
+        result = occupancy.get_dates_with_occupancy_low_high()
 
         expected_result = [{'day': '2022-01-01', 'price': 60, "occupation":"high"},
                             {'day': '2022-01-02', 'price': 60, "occupation":"high"},

@@ -4,7 +4,7 @@ import json
 from typing import List
 
 from commands.download_tickets_prices import TicketPrice
-from commands.portaventura_occupancy import PortaventuraOccupancy
+from commands.occupancy import Occupancy
 
 @dataclass
 class HotelPrice:
@@ -19,7 +19,7 @@ class FindOffers:
     date_ini: datetime
     date_end: datetime
     hotel_prices: List[HotelPrice] = []
-    portaventura_occupancy: PortaventuraOccupancy = None
+    occupancy: Occupancy = None
 
 
     def __init__(self,
@@ -45,7 +45,7 @@ class FindOffers:
             ticket_prices: List[TicketPrice] = [TicketPrice(date=price['date'], 
                                                             price=price['price']) for price in data]
 
-        self.portaventura_occupancy = PortaventuraOccupancy(ticket_prices=ticket_prices)
+        self.occupancy = Occupancy(ticket_prices=ticket_prices)
         
 
 
@@ -99,8 +99,8 @@ class FindOffers:
             date_obj = datetime.datetime.strptime(hotel_rate.date, "%Y-%m-%d")
             day_of_week = date_obj.strftime('%A')
             next_day = (date_obj + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-            occupancy = self.portaventura_occupancy.get_occupancy(hotel_rate.date)
-            occupancy_next_day = self.portaventura_occupancy.get_occupancy(next_day)
+            occupancy = self.occupancy.get_occupancy(hotel_rate.date)
+            occupancy_next_day = self.occupancy.get_occupancy(next_day)
             print(f"Date: {hotel_rate.date} ({day_of_week})({occupancy})({occupancy_next_day}), Hotel Name: {hotel_rate.name}, Rate: {hotel_rate.rate}")
 
 
