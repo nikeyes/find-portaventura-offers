@@ -48,16 +48,35 @@ class FindOffers:
         self.occupancy = Occupancy(ticket_prices=ticket_prices)
         
 
-
-    def print_unique_hotel_names(self):
+    def get_unique_hotel_names(self) -> set:
         unic_names = set()
 
         for hotel_rate in self.hotel_prices:
             unic_names.add(hotel_rate.name)
 
+        return unic_names
+
+    def print_unique_hotel_names(self):
+        unic_names = self.get_unique_hotel_names()
+
         print("------------Unique hotel names:---------------")
         for name in unic_names:
             print(name)
+
+
+    def get_last_date_with_rate(self):
+        non_null_rates = [hotel for hotel in self.hotel_prices if hotel.rate is not None]
+        if non_null_rates:
+            return max(non_null_rates, key=lambda x: x.date)
+        else:
+            return None
+        
+    def print_last_date_with_rate(self):
+        last_date = self.get_last_date_with_rate()
+        if last_date:
+            print("The last date with a non-null rate is:", last_date.date, last_date.name, last_date.rate)
+        else:
+            print("No non-null rates were found on any date.")
 
     def print_minor_rates_only_port_aventura(self):
         only_this_hotels = ["Hotel El Paso", 
@@ -104,12 +123,6 @@ class FindOffers:
             print(f"Date: {hotel_rate.date} ({day_of_week})({occupancy})({occupancy_next_day}), Hotel Name: {hotel_rate.name}, Rate: {hotel_rate.rate}")
 
 
-    def print_last_date_with_rate(self):
-        non_null_rates = [hotel for hotel in self.hotel_prices if hotel.rate is not None]
-        if non_null_rates:
-            result = max(non_null_rates, key=lambda x: x.date)
-            print("The last date with a non-null rate is:", result.date, result.name, result.rate)
-        else:
-            print("No non-null rates were found on any date.")
+
 
    
