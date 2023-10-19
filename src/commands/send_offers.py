@@ -5,11 +5,11 @@ from email.mime.text import MIMEText
 import os
 import smtplib
 
-def send_offers_by_email(body: str) -> None:
+def send_offers_by_email(body: str, emails: str) -> None:
  
     msg = MIMEMultipart()
     from_email = "nikey_es@yahoo.es"
-    to_email = "evamoga@gmail.com, nikey_es@yahoo.es"
+    to_email = emails
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = "Portaventura Daily Digest " + date.today().strftime("%Y-%m-%d")

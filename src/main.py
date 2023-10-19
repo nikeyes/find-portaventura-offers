@@ -48,12 +48,12 @@ def download_ticket_prices():
 @click.option('--ticket-prices', type=click.Path(exists=True), help='Path to the ticket prices file')
 @click.option('--date-ini', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='Start date in YYYY-MM-DD format')
 @click.option('--date-end', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
-@click.option('--send-email', required=False, type=bool, default=False, help='Send email with offers')
+@click.option('--emails', required=False, type=str, default="", help='Send email with offers')
 def find_offers(hotel_prices:str, 
                 ticket_prices:str, 
                 date_ini:datetime, 
                 date_end:datetime,
-                send_email:bool):
+                emails:bool):
     find_offers_instance = FindOffers(hotel_prices_file=hotel_prices,
                                       ticket_prices_file=ticket_prices,
                                       date_ini=date_ini, 
@@ -102,8 +102,8 @@ def find_offers(hotel_prices:str,
 
     print(body)
 
-    if send_email == True:
-        send_offers_by_email(body = body)
+    if emails != "":
+        send_offers_by_email(body = body, emails = emails)
 
 def append_to_body(offers: List[HotelOffer], hotel_name: str) -> str:
     body = f"\n\n-------------Lowest rates {hotel_name}:---------------\n"
