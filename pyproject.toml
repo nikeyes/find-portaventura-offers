@@ -16,6 +16,7 @@ google-auth-oauthlib = "^1.1.0"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
 pytest-cov = "^4.1.0"
+assertpy = "^1.1"
 
 [tool.pytest.ini_options]
 testpaths = [
@@ -27,8 +28,8 @@ pythonpath = [
     "src"
 ]
 python_files = ["test_*.py", "*_test.py", "*_should.py", ]
-python_classes = ["Test", "Acceptance"]
-python_functions = ["test", "*_test"]
+python_classes = ["Test", "Acceptance", "Given"]
+python_functions = ["test", "*_test", "when_*", "then_*"]
 # addopts = "-v --cov=src --no-cov-on-fail --cov-report=term-missing tests/"
 
 [build-system]
