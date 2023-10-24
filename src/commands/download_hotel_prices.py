@@ -116,7 +116,8 @@ class DownloadPrices:
     step: timedelta = timedelta(days=1)
     file_sufix: str = None
 
-    def __init__(self, 
+    def __init__(self,
+                 date_execution: datetime,
                  date_ini: datetime,
                  date_end: datetime, 
                  children: int,
@@ -128,12 +129,16 @@ class DownloadPrices:
         if not isinstance(date_ini, datetime) or not isinstance(date_end, datetime):
             raise TypeError("date_ini and date_end must be of type datetime")
 
+        self.date_execution = date_execution
         self.date_ini = date_ini
         self.date_end = date_end
         self.children =  children
         self.children_ages = children_ages
         self.adults = adults
         self.file_sufix = file_sufix
+        self.file_name_hotels = f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages}.json"
+        self.file_name_tickets = f"tickets_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages}.json"
+
 
     def download(self):
         current_date = self.date_ini
