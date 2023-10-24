@@ -122,8 +122,7 @@ class DownloadPrices:
                  date_end: datetime, 
                  children: int,
                  children_ages: str,
-                 adults: int,
-                 file_sufix: str) -> None:
+                 adults: int) -> None:
         if not date_ini or not date_end:
             raise ValueError("Both date_ini and date_end are mandatory")
         if not isinstance(date_ini, datetime) or not isinstance(date_end, datetime):
@@ -135,9 +134,8 @@ class DownloadPrices:
         self.children =  children
         self.children_ages = children_ages
         self.adults = adults
-        self.file_sufix = file_sufix
-        self.file_name_hotels = f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages}.json"
-        self.file_name_tickets = f"tickets_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages}.json"
+        self.file_name_hotels = f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages.replace(',','_')}.json"
+        
 
 
     def download(self):
@@ -207,7 +205,7 @@ class DownloadPrices:
 
             progress.update(analysing_task, completed=num_days)
 
-        file_path = os.path.join("downloaded_data", f"hotels_{datetime.today().strftime('%Y%m%d')}_{self.file_sufix}.json")
+        file_path = os.path.join("downloaded_data", self.file_name_hotels)
         with open(file_path, "w") as archivo:
             archivo.write(portaventura_rates.to_json())
 

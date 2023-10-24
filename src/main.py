@@ -16,29 +16,30 @@ def cli():
 @click.option('--children', default=2, type=int, help='Number of children')
 @click.option('--children-ages', default="6,9", type=str, help='Ages of children (comma-separated)')
 @click.option('--adults', default=2, type=int, help='Number of adults')
-@click.option('--file-sufix', default="", type=str, help='Export filename sufix')
 def download_rates(date_ini: datetime, 
                    date_end: datetime, 
                    children: int,
                    children_ages: str,
-                   adults: int,
-                   file_sufix: str): 
+                   adults: int): 
     
     dtp = DownloadTicketPrices()
     dtp.download_and_save_to_file()
 
-    dp = DownloadPrices(date_ini=date_ini, 
+    date_execution = datetime.today()
+
+    dp = DownloadPrices(date_execution=date_execution,
+                        date_ini=date_ini, 
                         date_end=date_end,
                         children = children,
                         children_ages=children_ages,
-                        adults=adults,
-                        file_sufix=file_sufix)
+                        adults=adults)
     dp.download()
     click.echo("Rates downloaded successfully.")
 
 
 @cli.command()
 def download_ticket_prices():
+    
     dtp = DownloadTicketPrices()
     dtp.download()
 
