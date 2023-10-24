@@ -46,7 +46,7 @@ class PortaventuraRates:
         self.download_date_end = date_end.strftime("%Y-%m-%d")
         
         children_ages_list = []
-        if len(children_ages)>0:
+        if children_ages and len(children_ages)>0:
             children_ages_list = [int(age) for age in children_ages.split(',')]
         
         self.generic_query = {
@@ -134,7 +134,12 @@ class DownloadPrices:
         self.children =  children
         self.children_ages = children_ages
         self.adults = adults
-        self.file_name_hotels = f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages.replace(',','_')}.json"
+        self.file_name_hotels = self.get_file_name()
+
+    def get_file_name(self):
+        if self.children_ages is None or len(self.children_ages) == 0:
+            return f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}.json"
+        return f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages.replace(',','_')}.json"
         
 
 

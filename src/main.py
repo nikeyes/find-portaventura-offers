@@ -11,11 +11,11 @@ def cli():
     pass
 
 @cli.command()
-@click.option('--date-ini', type=click.DateTime(formats=["%Y-%m-%d"]), default=str(date.today()), help='Start date in YYYY-MM-DD format')
-@click.option('--date-end', type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
-@click.option('--children', default=2, type=int, help='Number of children')
-@click.option('--children-ages', default="6,9", type=str, help='Ages of children (comma-separated)')
-@click.option('--adults', default=2, type=int, help='Number of adults')
+@click.option('--date-ini', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), default=str(date.today()), help='Start date in YYYY-MM-DD format')
+@click.option('--date-end', required=True, type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
+@click.option('--children', required=False, type=int, help='Number of children')
+@click.option('--children-ages', required=False, type=str, help='Ages of children (comma-separated)')
+@click.option('--adults', required=True, default=2, type=int, help='Number of adults')
 def download_rates(date_ini: datetime, 
                    date_end: datetime, 
                    children: int,
@@ -39,7 +39,7 @@ def download_rates(date_ini: datetime,
 
 @cli.command()
 def download_ticket_prices():
-    
+
     dtp = DownloadTicketPrices()
     dtp.download()
 
@@ -50,15 +50,18 @@ def download_ticket_prices():
 @click.option('--date-ini', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='Start date in YYYY-MM-DD format')
 @click.option('--date-end', required=False, type=click.DateTime(formats=["%Y-%m-%d"]), help='End date in YYYY-MM-DD format')
 @click.option('--emails', required=False, type=str, default="", help='Send email with offers')
+@click.option('--max-offers', required=False, type=int, default=0, help='Max offers to show')
 def find_offers(hotel_prices:str, 
                 ticket_prices:str, 
                 date_ini:datetime, 
                 date_end:datetime,
-                emails:bool):
+                emails:str,
+                max_offers:int) -> None:
     find_offers_instance = FindOffers(hotel_prices_file=hotel_prices,
                                       ticket_prices_file=ticket_prices,
                                       date_ini=date_ini, 
-                                      date_end=date_end)
+                                      date_end=date_end,
+                                      max_offers=max_offers)
 
 
     

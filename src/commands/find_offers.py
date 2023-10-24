@@ -30,17 +30,20 @@ class FindOffers:
     date_end: datetime
     hotel_prices: List[HotelPrice] = []
     occupancy: Occupancy = None
+    max_offers: int = 0
 
 
     def __init__(self,
                 hotel_prices_file:str,
                 ticket_prices_file:str,
                 date_ini: datetime,
-                date_end: datetime) -> None:
+                date_end: datetime,
+                max_offers: int) -> None:
         
         self.date_ini = date_ini
         self.date_end = date_end
-        
+        self.max_offers = max_offers
+
         with open(hotel_prices_file, 'r') as json_file: 
             data = json.load(json_file)
             if data != {}:
@@ -121,7 +124,7 @@ class FindOffers:
 
         ordered_rates = sorted(hotels_prices, key=lambda rate: rate.rate if rate.rate is not None else float('inf'))
         
-        five_minor_rates = ordered_rates[:20]
+        five_minor_rates = ordered_rates[:self.max_offers]
         
         hotel_offers: List[HotelOffer] = []
 

@@ -15,7 +15,8 @@ class TestFindOffers(unittest.TestCase):
                 hotel_prices_file="hotel_prices.json",
                 ticket_prices_file="ticket_prices.json",
                 date_ini=datetime(2023, 1, 1),
-                date_end=datetime(2023, 1, 7)
+                date_end=datetime(2023, 1, 7),
+                max_offers=5
             )
 
     def test_get_unique_hotel_names(self):
