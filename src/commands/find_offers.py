@@ -121,7 +121,7 @@ class FindOffers:
 
         ordered_rates = sorted(hotels_prices, key=lambda rate: rate.rate if rate.rate is not None else float('inf'))
         
-        five_minor_rates = ordered_rates[:5]
+        five_minor_rates = ordered_rates[:20]
         
         hotel_offers: List[HotelOffer] = []
 
