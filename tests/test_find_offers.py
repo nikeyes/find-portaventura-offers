@@ -183,3 +183,26 @@ class TestFindOffers(unittest.TestCase):
         expected_result = []
 
         self.assertEqual(result, expected_result)
+
+    def test_get_minor_prices_without_occupancy(self):
+        hotels_price = [
+            HotelPrice(name="Hotel A", date="2023-01-01", rate_old=120, rate=100, discount=0.2),
+            HotelPrice(name="Hotel B", date="2023-01-01", rate_old=250, rate=200, discount=0.2),
+            HotelPrice(name="Hotel A", date="2023-01-01", rate_old=180, rate=150, discount=0.2),
+            HotelPrice(name="Hotel C", date="2023-01-01", rate_old=375, rate=300, discount=0.2),
+            HotelPrice(name="Hotel B", date="2023-01-01", rate_old=312.5, rate=250, discount=0.2),
+            HotelPrice(name="Hotel D", date="2023-01-01", rate_old=500, rate=400, discount=0.2),
+        ]
+        
+        result = self.find_offers.get_minor_rate(hotels_prices=hotels_price)
+        
+        expected_result = [
+            HotelOffer(name="Hotel A", rate=100, date="2023-01-01", occupancy=None, occupancy_next_day=None, day_of_week="Sunday"),
+            HotelOffer(name="Hotel A", rate=150, date="2023-01-01", occupancy=None, occupancy_next_day=None, day_of_week="Sunday"),
+            HotelOffer(name="Hotel B", rate=200, date="2023-01-01", occupancy=None, occupancy_next_day=None, day_of_week="Sunday"),
+            HotelOffer(name="Hotel B", rate=250, date="2023-01-01", occupancy=None, occupancy_next_day=None, day_of_week="Sunday"),
+            HotelOffer(name="Hotel C", rate=300, date="2023-01-01", occupancy=None, occupancy_next_day=None, day_of_week="Sunday"),
+        ]
+
+        self.assertEqual(result, expected_result)
+        

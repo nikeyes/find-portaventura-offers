@@ -44,20 +44,31 @@ class FindOffers:
         self.date_end = date_end
         self.max_offers = max_offers
 
+        self.hotel_prices = self.load_prices(hotel_prices_file)
+                
+        self.occupancy = self.load_occupancy(ticket_prices_file)
+
+    def load_prices(self, hotel_prices_file):
         with open(hotel_prices_file, 'r') as json_file: 
             data = json.load(json_file)
             if data != {}:
-                self.hotel_prices = [HotelPrice(date=d['date'], 
+                return [HotelPrice(date=d['date'], 
                                                 name=d['name'], 
                                                 rate=d['rate'], 
                                                 rate_old=d['rate_old'], 
                                                 discount=d['discount']) for d in data.get('hotels_rate')]
-                with open(ticket_prices_file, 'r') as f:
-                    data = json.load(f)
-                    ticket_prices: List[TicketPrice] = [TicketPrice(date=price['date'], 
-                                                                    price=price['price']) for price in data]
 
-                    self.occupancy = Occupancy(ticket_prices=ticket_prices)
+    def load_occupancy(self, ticket_prices_file) -> Occupancy:
+        
+        if ticket_prices_file is not None:
+            with open(ticket_prices_file, 'r') as f:
+                data = json.load(f)
+                if data != {}:
+                    ticket_prices: List[TicketPrice] = [TicketPrice(date=price['date'], 
+                                                                        price=price['price']) for price in data]
+
+                    return Occupancy(ticket_prices=ticket_prices)
+        return Occupancy(ticket_prices=[])
         
 
     def get_unique_hotel_names(self) -> set:
