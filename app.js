@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchData() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/nikeyes/find-portaventura-offers/main/downloaded_data/hotels_20231117_a3_c2_6_9.json');
+        const response = await fetch('https://raw.githubusercontent.com/nikeyes/find-portaventura-offers/main/downloaded_data/hotels_20231127_a2_c2_6_9.json');
         const data = await response.json();
         displayData(data);
     } catch (error) {
