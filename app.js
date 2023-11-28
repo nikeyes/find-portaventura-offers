@@ -27,6 +27,19 @@ function displayData(data) {
     headers.forEach(headerText => {
         const th = document.createElement('th');
         th.textContent = headerText;
+
+        // Add filter input and event listener
+        if (headerText !== 'Fecha') {
+            const filterInput = document.createElement('input');
+            filterInput.type = 'text';
+            filterInput.placeholder = `Filtrar por ${headerText.toLowerCase()}`;
+            th.appendChild(filterInput);
+
+            filterInput.addEventListener('input', function() {
+                filterTable(headerText.toLowerCase(), this.value);
+            });
+        }
+
         headerRow.appendChild(th);
     });
     table.appendChild(headerRow);
@@ -59,4 +72,20 @@ function displayData(data) {
 
     container.appendChild(table);
     appContainer.appendChild(container);
+}
+
+function filterTable(columnIndex, value) {
+    const table = document.querySelector('.table');
+    const rows = table.querySelectorAll('tr');
+
+    for (let i = 1; i < rows.length; i++) {
+        const row = rows[i];
+        const cells = row.querySelectorAll('td');
+
+        if (cells[columnIndex].textContent.toLowerCase().includes(value.toLowerCase())) {
+            row.style.display = '';
+        } else {
+            row.style.display = 'none';
+        }
+    }
 }
