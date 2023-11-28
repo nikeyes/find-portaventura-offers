@@ -22,7 +22,7 @@ function displayData(data) {
     table.classList.add('table');
 
     // Create table headers
-    const headers = ['Fecha', 'Nombre del Hotel', 'Tarifa', 'Descuento'];
+    const headers = ['Fecha', 'Nombre del Hotel', 'Tarifa', 'Tarifa Antigua', 'Descuento'];
     const headerRow = document.createElement('tr');
     headers.forEach(headerText => {
         const th = document.createElement('th');
@@ -45,6 +45,10 @@ function displayData(data) {
         const rateCell = document.createElement('td');
         rateCell.textContent = item.rate;
         row.appendChild(rateCell);
+
+        const rateOldCell = document.createElement('td');
+        rateOldCell.textContent = item.rate_old !== null ? item.rate_old : 'N/A';
+        row.appendChild(rateOldCell);
 
         const discountCell = document.createElement('td');
         discountCell.textContent = item.discount;
