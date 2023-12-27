@@ -121,7 +121,9 @@ class DownloadPrices:
     def get_file_name(self):
         if self.children_ages is None or len(self.children_ages) == 0:
             return f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}.json"
-        return f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages.replace(',','_')}.json"
+        return (
+            f"hotels_{self.date_execution.strftime('%Y%m%d')}_a{self.adults}_c{self.children}_{self.children_ages.replace(',', '_')}.json"
+        )
 
     def download(self):
         current_date = self.date_ini

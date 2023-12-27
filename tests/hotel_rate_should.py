@@ -1,6 +1,5 @@
 from datetime import datetime
 from unittest import TestCase
-from assertpy import assert_that
 from src.commands.download_hotel_prices import HotelRate
 
 

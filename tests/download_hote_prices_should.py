@@ -63,7 +63,7 @@ class TestDownloadHotelPrices(TestCase):
 
         assert_that(dp.file_name_hotels).is_equal_to('hotels_20230101_a2.json')
 
-    def test_calculate_output_file_name_with_childrens_empty(self):
+    def test_calculate_output_file_name_with_childrens(self):
         date_execution = datetime(2023, 1, 1)
         date_ini = datetime(2023, 1, 3)
         date_end = datetime(2023, 1, 4)
@@ -81,3 +81,40 @@ class TestDownloadHotelPrices(TestCase):
         )
 
         assert_that(dp.file_name_hotels).is_equal_to('hotels_20230101_a2_c1_10.json')
+
+    def test_find_room_type(self):
+        date_execution = datetime(2023, 1, 1)
+        date_ini = datetime(2023, 1, 3)
+        date_end = datetime(2023, 1, 4)
+        adults = 2
+        children = 1
+        children_ages = "10"
+
+        dp = DownloadPrices(
+            date_execution=date_execution,
+            date_ini=date_ini,
+            date_end=date_end,
+            children=children,
+            children_ages=children_ages,
+            adults=adults,
+        )
+
+        data = {
+            'allRoomTypes': [
+                {'roomTypeName': 'Deluxe Superior Club San Juan'},
+                {'roomTypeName': 'Deluxe Colorado'},
+                {'roomTypeName': 'Suite'},
+                {'roomTypeName': 'Deluxe Colorado'},
+            ]
+        }
+        room_type_to_find = 'Deluxe Colorado'
+
+        # Act
+        result = dp.find_room_type(data, room_type_to_find)
+
+        # Assert
+        expected_result = [
+            {'roomTypeName': 'Deluxe Colorado'},
+            {'roomTypeName': 'Deluxe Colorado'},
+        ]
+        assert_that(result).is_equal_to(expected_result)

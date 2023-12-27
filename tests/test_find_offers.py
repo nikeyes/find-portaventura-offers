@@ -1,7 +1,11 @@
 from datetime import datetime
 from unittest import TestCase
 from unittest.mock import patch, mock_open
+import builtins
+import json
+from mockito import when, verify, unstub
 from assertpy import assert_that
+
 from src.commands.download_tickets_prices import TicketPrice
 from src.commands.find_offers import FindOffers, HotelOffer, HotelPrice
 
@@ -11,16 +15,6 @@ from src.commands.occupancy import Occupancy
 
 class TestFindOffers(TestCase):
     def setUp(self):
-        # mockito version
-        # mock_data = '{}'
-        # mock_file = mock({
-        #     'read': lambda: mock_data,
-        #     'close': lambda: None,
-        #     '__enter__': lambda: mock_file,
-        #     '__exit__': lambda type, value, traceback: None
-        # })
-        # when(builtins).open(any, any).thenReturn(mock_file)
-
         # Mockito for builtins is very complicated compared with patch
         with patch("builtins.open", mock_open(read_data='{}')):
             self.find_offers = FindOffers(
@@ -30,6 +24,11 @@ class TestFindOffers(TestCase):
                 date_end=datetime(2023, 1, 7),
                 max_offers=5,
             )
+        return super().setUp()
+
+    def tearDown(self) -> None:
+        unstub()
+        return super().tearDown()
 
     def test_get_unique_hotel_names(self):
         self.find_offers.hotel_prices = [
@@ -250,3 +249,59 @@ class TestFindOffers(TestCase):
         ]
 
         self.assertEqual(result, expected_result)
+
+    def test_load_prices(self):
+        mock_data = {
+            'hotels_rate': [
+                {'date': '2022-01-01', 'name': 'Hotel 1', 'rate': 100, 'rate_old': 150, 'discount': 50},
+                {'date': '2022-01-02', 'name': 'Hotel 2', 'rate': 200, 'rate_old': 250, 'discount': 50},
+            ]
+        }
+        when(builtins).open(any, any).thenReturn(MockContextManager(mock_data))
+
+        result = self.find_offers.load_prices('dummy_file.json')
+
+        expected_result = [
+            HotelPrice(date='2022-01-01', name='Hotel 1', rate=100, rate_old=150, discount=50),
+            HotelPrice(date='2022-01-02', name='Hotel 2', rate=200, rate_old=250, discount=50),
+        ]
+        assert_that(result).is_equal_to(expected_result)
+        verify(builtins, times=1).open('dummy_file.json', 'r')
+
+    def test_load_occupancy(self):
+        # Arrange
+        mock_data = [
+            {'date': '2022-01-01', 'price': 100},
+            {'date': '2022-01-02', 'price': 200},
+        ]
+        when(builtins).open(any, any).thenReturn(MockContextManager(mock_data))
+
+        # Act
+        result = self.find_offers.load_occupancy('dummy_file.json')
+
+        # Assert
+        expected_result = Occupancy(
+            ticket_prices=[
+                TicketPrice(date='2022-01-01', price=100),
+                TicketPrice(date='2022-01-02', price=200),
+            ]
+        )
+
+        for i, ticket_price in enumerate(result.ticket_prices):
+            assert_that(ticket_price.__dict__).is_equal_to(expected_result.ticket_prices[i].__dict__)
+
+        verify(builtins, times=1).open('dummy_file.json', 'r')
+
+
+class MockContextManager:
+    def __init__(self, data):
+        self.data = data
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        pass
+
+    def read(self):
+        return json.dumps(self.data)

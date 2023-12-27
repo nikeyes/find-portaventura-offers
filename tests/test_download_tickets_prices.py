@@ -1,12 +1,19 @@
+import builtins
 import json
 import unittest
 from unittest.mock import patch, MagicMock
+from mockito import when, mock, verify, unstub
 from src.commands.download_tickets_prices import DownloadTicketPrices, TicketPrice
 
 
 class TestDownloadTicketPrices(unittest.TestCase):
-    def setUp(self):
+    def setUp(self) -> None:
         self.download_ticket_prices = DownloadTicketPrices()
+        return super().setUp()
+
+    def tearDown(self) -> None:
+        unstub()
+        return super().tearDown()
 
     @patch("src.commands.download_tickets_prices.requests.request")
     def test_download(self, mock_request):
@@ -127,3 +134,28 @@ class TestDownloadTicketPrices(unittest.TestCase):
         ]
 
         self.assertEqual(result, expected_result)
+
+    def test_download_and_save_to_file(self):
+
+        mock_prices = [
+            TicketPrice(date="2022-01-01", price=50),
+            TicketPrice(date="2022-01-02", price=60),
+        ]
+        when(self.download_ticket_prices).download().thenReturn(mock_prices)
+        when(builtins).open(any, any).thenReturn(MockContextManager())
+
+        self.download_ticket_prices.download_and_save_to_file()
+
+        verify(builtins, times=1).open(any, 'w')
+        verify(self.download_ticket_prices, times=1).download()
+
+
+class MockContextManager:
+    def __init__(self):
+        self.write = mock()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        pass
