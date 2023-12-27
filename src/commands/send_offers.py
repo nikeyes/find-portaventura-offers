@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 import os
 import smtplib
 
+
 def send_offers_by_email(body: str, emails: str) -> None:
- 
     msg = MIMEMultipart()
     from_email = "nikey_es@yahoo.es"
     to_email = emails
@@ -14,7 +14,7 @@ def send_offers_by_email(body: str, emails: str) -> None:
     msg['To'] = to_email
     msg['Subject'] = "Portaventura Daily Digest " + date.today().strftime("%Y-%m-%d")
     msg.attach(MIMEText(body, 'plain'))
-    
+
     try:
         server = smtplib.SMTP("smtp-relay.brevo.com", 587)
         server.starttls()
@@ -26,4 +26,3 @@ def send_offers_by_email(body: str, emails: str) -> None:
         print('Email sent successfully')
     except Exception as e:
         print('Something went wrong while sending email:', e)
-        

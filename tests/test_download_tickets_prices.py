@@ -1,8 +1,7 @@
-from datetime import datetime
-import unittest
-from unittest.mock import mock_open, patch, MagicMock
-from src.commands.download_tickets_prices import DownloadTicketPrices, TicketPrice
 import json
+import unittest
+from unittest.mock import patch, MagicMock
+from src.commands.download_tickets_prices import DownloadTicketPrices, TicketPrice
 
 
 class TestDownloadTicketPrices(unittest.TestCase):
