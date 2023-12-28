@@ -1,6 +1,6 @@
 from datetime import datetime
 from unittest import TestCase
-from src.commands.download_hotel_prices import HotelRate
+from src.domain.hotel_rate import HotelRate
 
 
 class TestHotelRate(TestCase):

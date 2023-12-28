@@ -23,5 +23,5 @@ def send_offers_by_email(body: str, emails: str) -> None:
         server.sendmail(from_email, to_email, text)
         server.quit()
         print('Email sent successfully')
-    except Exception as e:
+    except smtplib.SMTPException as e:
         print('Something went wrong while sending email:', e)
