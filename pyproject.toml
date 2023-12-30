@@ -24,7 +24,8 @@ mockito = "^1.4.0"
 testpaths = [
     "tests",
     "tests/integration_tests",
-    "tests/unit_tests"
+    "tests/unit_tests",
+    "tests/approval_tests"
 ]
 pythonpath = [
     "src"
