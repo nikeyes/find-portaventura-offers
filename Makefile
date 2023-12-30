@@ -7,7 +7,8 @@ FILE_TICKETS=downloaded_data/tickets_$(TODAY_WITHOUT_DASHES).json
 
 .PHONY: test
 test:
-	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing tests/
+	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing --approvaltests-use-reporter='PythonNative'  --approvaltests-add-reporter="code" --approvaltests-add-reporter-args="--diff" tests/
+#	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing tests/
 
 .PHONY: download
 download: test
