@@ -84,6 +84,13 @@
         },
         {
             "date": "2023-12-31",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 335.72,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
             "name": "Deluxe Colorado",
             "rate": 1362,
             "rate_old": null,
@@ -121,6 +128,13 @@
             "date": "2024-01-01",
             "name": "Hotel Mansión de Lucy",
             "rate": 935,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 335.72,
             "rate_old": null,
             "discount": 0
         },

@@ -60,7 +60,7 @@ class MockResponseHotelPrices:
         self.status_code = 200
 
     def json(self):
-        with open('tests/approval_tests/data_for_tests/data_generic_hotel_prices_1_day.json', 'r', encoding='utf-8') as json_file:
+        with open('tests/approval_tests/data_for_tests/data_hotel_prices_1_day.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
         return data
 
@@ -70,11 +70,16 @@ class MockResponseDeluxeColoradoPrices:
         self.status_code = 200
 
     def json(self):
-        with open('tests/approval_tests/data_for_tests/data_specific_deluxe_colorado_1_day.json', 'r', encoding='utf-8') as json_file:
+        with open('tests/approval_tests/data_for_tests/data_rooms_deluxe_colorado_1_day.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
         return data
 
 
 class MockResponseClubSanJuanPrices:
     def __init__(self):
-        self.status_code = 500
+        self.status_code = 200
+
+    def json(self):
+        with open('tests/approval_tests/data_for_tests/data_rooms_club_sanjuan_1_day.json', 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+        return data

@@ -1,0 +1,1370 @@
+{
+    "allRoomTypes": [
+      {
+        "roomTypeCode": "501973",
+        "roomTypeName": "Standard en dos habitaciones comunicadas",
+        "pmsRoomExternalCode": "STD6",
+        "roomTypeName_es": "Standard en dos habitaciones comunicadas",
+        "categoryCode": "20856",
+        "shortDescription": "Cómodas habitaciones con ambientación caribeña ideales para tus vacaciones. ",
+        "roomInfo": " +Acceso ilimitado a PortAventura Park durante toda la estancia según calendario de apertura. \n +1 día de acceso a Ferrari Land incluido por persona y estancia según calendario de apertura. \n +Descuento especial en las entradas para PortAventura Caribe Aquatic Park y en productos Express. \n +Conexión wifi gratuita. \n",
+        "includeInfo": " Aparcamiento gratuito en el hotel (según disponibilidad). \n Reserva preferente en los restaurantes con servicio de mesa (antes de las 12:00 para el servicio de almuerzos y antes de las 18:00 para el servicio de cenas). Sujeto a disponibilidad. \n Servicio Pick-up en las tiendas de los parques: te llevamos tus compras al hotel. \n Posibilidad de realizar el check-in online. \n \n \nEquipamiento: \n Balcón o terraza \n Caja fuerte \n Aire acondicionado o calefacción centralizados \n Baño (con ducha o bañera) \n Secador de pelo \n Teléfono \n Escritorio \n Televisor de pantalla plana de 26” o 40\" con televisión vía satélite \n Superficie de la habitación: 40 m² aproximadamente \n PortAventura Park permanecerá cerrado el día 14/11. Ferrari Land estará abierto. \n A partir del 13/11 y hasta el final de la temporada, Ferrari Land abrirá únicamente los sábados y domingos, excepto del 04/12 al 10/12 y del 25/12 al 07/01/24, que abrirá de lunes a domingo. \n",
+        "sortOrder": 1,
+        "mainImage": {
+          "type": "main-image",
+          "source": "/assets/hotel/112622/media/room/main-image/hc_sd_enhanced.jpg",
+          "sortOrder": 0
+        },
+        "averageRates": [
+          {
+            "roomTypeCode": "501973",
+            "rate": 361.2,
+            "discount": 72.24,
+            "ratePlanCode": "5251821",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Alojamiento y desayuno",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501973",
+            "rate": 422.7,
+            "discount": 84.54,
+            "ratePlanCode": "4706141",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Media pensión",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501973",
+            "rate": 481.7,
+            "discount": 96.34,
+            "ratePlanCode": "4706177",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Pensión completa",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501973",
+            "rate": 326,
+            "discount": 65.2,
+            "ratePlanCode": "4706157",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Sólo alojamiento",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          }
+        ],
+        "roomFeatures": [
+          {
+            "amenity": "People",
+            "image": {
+              "type": "image",
+              "source": "images/icons/occupant.svg",
+              "sortOrder": 1
+            },
+            "quantity": 8,
+            "type": "Occupancy"
+          },
+          {
+            "amenity": "Sq m / 517 Sq ft",
+            "image": {
+              "type": "image",
+              "source": "images/icons/measuring-square.svg",
+              "sortOrder": 1
+            },
+            "quantity": 48,
+            "type": "Size"
+          }
+        ],
+        "amenities": [
+          {
+            "name": "-1 cama 2x2m + 2 camas 1,35m + sofa",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/twobeds.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "-2 camas 1m + 2 camas 1,35m + sofá",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/twobeds.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Recepción 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/reception_desk.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Vigilancia 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/24_hour.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Despertador",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/alarm_clock.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Baño (con ducha o bañera)",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shower_in_bath.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Televisión por cable y satélite",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/cable_tv_2.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aire acondicionado o calefacción",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/heater_and_air_conditioner.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Conserjería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_counter.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Salas de conferencias",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/dining_table.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Habitaciones conectadas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/adjoining_or_connecting_rooms.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Cambio de divisas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/money_exchange.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Ascensores",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/elevator.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Check out exprés",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Wifi gratis",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/wifi_labeled.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Tienda de souvenirs",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shop.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Secador en la habitación",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/blow_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de lavandería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/washer_and_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Instalaciones para reuniones",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/table_and_chairs.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Personal multilingüe",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/guest_service_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Habitaciones libres de humo",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/no_smoking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aparcamiento exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/parking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Piscina exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/diving_into_pool.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Línea telefónica",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/telephone.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Parque infantil",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/garden_view_3.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Restaurante",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/plate.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Zona para sentarse",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/sitting_area.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de mantenimiento",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/turndown_service_3.svg",
+              "sortOrder": 0
+            }
+          }
+        ],
+        "media": [
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_15_enhanced.jpg",
+            "sortOrder": 0
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_5_enhanced.jpg",
+            "sortOrder": 1
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_1_enhanced.jpg",
+            "sortOrder": 2
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc-_std-1_enhanced.jpg",
+            "sortOrder": 3
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_std_2_hab_enhanced.jpg",
+            "sortOrder": 4
+          }
+        ],
+        "nightlyRates": [
+          {
+            "ratePlanCode": "4706157",
+            "amtTotal": 521.6,
+            "discountType": "Percent",
+            "discount": 130.4,
+            "firstDayRate": 260.8,
+            "roomTypeCode": "501973",
+            "isFeatured": false,
+            "amtTotalOld": 652,
+            "ratePlanRecommendation": {
+              "isActive": true,
+              "roomTypeCode": "501973",
+              "image": {
+                "mobile": "https://assets.book.portaventuraworld.com/images/62a8a9b5c59ec_27mobileImage.jpg",
+                "desktop": "https://assets.book.portaventuraworld.com/images/62a8a9b58f913_27desktopImage.jpg"
+              },
+              "suggestedRatePlan": "5251821",
+              "title": "¿Por qué no incluyes el desayuno?\ufeff",
+              "description": "<p>Disfruta de un desayuno delicioso para comenzar el día con buen pie.</p><p>Solo 11 €/adulto y 6,60 €/niño por noche.</p><p>Se incluyen un bufé caliente, productos de pastelería, embutidos, quesos, fruta, cereales y yogures.</p>",
+              "cta": {
+                "accept": "Añadir desayuno para todos",
+                "reject": "Continuar sin desayuno"
+              }
+            }
+          },
+          {
+            "ratePlanCode": "5251821",
+            "amtTotal": 577.92,
+            "discountType": "Percent",
+            "discount": 144.48,
+            "firstDayRate": 288.96,
+            "roomTypeCode": "501973",
+            "isFeatured": false,
+            "amtTotalOld": 722.4,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706141",
+            "amtTotal": 676.32,
+            "discountType": "Percent",
+            "discount": 169.08,
+            "firstDayRate": 338.16,
+            "roomTypeCode": "501973",
+            "isFeatured": false,
+            "amtTotalOld": 845.4000000000001,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706177",
+            "amtTotal": 770.72,
+            "discountType": "Percent",
+            "discount": 192.68,
+            "firstDayRate": 385.36,
+            "roomTypeCode": "501973",
+            "isFeatured": false,
+            "amtTotalOld": 963.4000000000001,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          }
+        ],
+        "categoryName": "STANDARD PLUS"
+      },
+      {
+        "roomTypeCode": "501964",
+        "roomTypeName": "Standard",
+        "pmsRoomExternalCode": "STD3",
+        "roomTypeName_es": "Standard (std3)",
+        "categoryCode": "20881",
+        "shortDescription": "Habitaciones con todas las comodidades del resort. ",
+        "roomInfo": " +Acceso ilimitado a PortAventura Park durante toda la estancia según calendario de apertura. \n +1 día de acceso a Ferrari Land incluido por persona y estancia según calendario de apertura. \n +Descuento especial en las entradas para PortAventura Caribe Aquatic Park y en productos Express. \n +Conexión wifi gratuita. \n",
+        "includeInfo": " Aparcamiento gratuito en el hotel (según disponibilidad). \n Reserva preferente en los restaurantes con servicio de mesa (antes de las 12:00 para el servicio de almuerzos y antes de las 18:00 para el servicio de cenas). Sujeto a disponibilidad. \n Servicio Pick-up en las tiendas de los parques: te llevamos tus compras al hotel. \n Posibilidad de realizar el check-in online. \n \n \nEquipamiento: \n Balcón o terraza \n Caja fuerte \n Aire acondicionado o calefacción centralizados \n Baño (con ducha o bañera) \n Secador de pelo \n Teléfono \n Escritorio \n Televisor de pantalla plana de 26” o 40\" con televisión vía satélite \n Superficie de la habitación: 24 m² aproximadamente \n PortAventura Park permanecerá cerrado el día 14/11. Ferrari Land estará abierto. \n A partir del 13/11 y hasta el final de la temporada, Ferrari Land abrirá únicamente los sábados y domingos, excepto del 04/12 al 10/12 y del 25/12 al 07/01/24, que abrirá de lunes a domingo. \n",
+        "sortOrder": 2,
+        "mainImage": {
+          "type": "main-image",
+          "source": "/assets/hotel/112622/media/room/main-image/hc_standard_enhanced.jpg",
+          "sortOrder": 0
+        },
+        "averageRates": [
+          {
+            "roomTypeCode": "501964",
+            "rate": 221.2,
+            "discount": 44.24,
+            "ratePlanCode": "5251821",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Alojamiento y desayuno",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501964",
+            "rate": 282.7,
+            "discount": 56.54,
+            "ratePlanCode": "4706141",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Media pensión",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501964",
+            "rate": 341.7,
+            "discount": 68.34,
+            "ratePlanCode": "4706177",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Pensión completa",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501964",
+            "rate": 186,
+            "discount": 37.2,
+            "ratePlanCode": "4706157",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Sólo alojamiento",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          }
+        ],
+        "roomFeatures": [
+          {
+            "amenity": "People",
+            "image": {
+              "type": "image",
+              "source": "images/icons/occupant.svg",
+              "sortOrder": 1
+            },
+            "quantity": 4,
+            "type": "Occupancy"
+          },
+          {
+            "amenity": "Sq m / 258 Sq ft",
+            "image": {
+              "type": "image",
+              "source": "images/icons/measuring-square.svg",
+              "sortOrder": 1
+            },
+            "quantity": 24,
+            "type": "Size"
+          }
+        ],
+        "amenities": [
+          {
+            "name": "-1 cama 2x2 m + sofá cama 1’20m",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/queen_bed.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "-2 camas 1m + sofá cama 1,20m",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/sofa-bed.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "-2 camas 1,35 m",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/twobeds.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Recepción 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/reception_desk.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Vigilancia 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/24_hour.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Despertador",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/alarm_clock.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Baño (con ducha o bañera)",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shower_in_bath.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Televisión por cable y satélite",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/cable_tv_2.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aire acondicionado o calefacción",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/heater_and_air_conditioner.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Conserjería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_counter.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Salas de conferencias",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/dining_table.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Cambio de divisas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/money_exchange.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Ascensores",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/elevator.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Check out exprés",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Wifi gratis",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/wifi_labeled.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Tienda de souvenirs",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shop.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Secador en la habitación",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/blow_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de lavandería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/washer_and_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Instalaciones para reuniones",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/table_and_chairs.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Personal multilingüe",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/guest_service_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Habitaciones libres de humo",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/no_smoking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aparcamiento exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/parking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Piscina exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/diving_into_pool.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Línea telefónica",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/telephone.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Parque infantil",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/garden_view_3.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Restaurante",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/plate.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Zona para sentarse",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/sitting_area.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de mantenimiento",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/turndown_service_3.svg",
+              "sortOrder": 0
+            }
+          }
+        ],
+        "media": [
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_5_enhanced.jpg",
+            "sortOrder": 0
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_15_enhanced.jpg",
+            "sortOrder": 1
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_2_enhanced.jpg",
+            "sortOrder": 2
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc-_std-1_enhanced.jpg",
+            "sortOrder": 3
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_6_enhanced.jpg",
+            "sortOrder": 4
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_standard_1_enhanced.jpg",
+            "sortOrder": 5
+          }
+        ],
+        "nightlyRates": [
+          {
+            "ratePlanCode": "4706157",
+            "amtTotal": 297.6,
+            "discountType": "Percent",
+            "discount": 74.4,
+            "firstDayRate": 148.8,
+            "roomTypeCode": "501964",
+            "isFeatured": false,
+            "amtTotalOld": 372,
+            "ratePlanRecommendation": {
+              "isActive": true,
+              "roomTypeCode": "501964",
+              "image": {
+                "mobile": "https://assets.book.portaventuraworld.com/images/62a8a9b162338_25mobileImage.jpg",
+                "desktop": "https://assets.book.portaventuraworld.com/images/62a8a9b12946c_25desktopImage.jpg"
+              },
+              "suggestedRatePlan": "5251821",
+              "title": "¿Por qué no incluyes el desayuno?\ufeff",
+              "description": "<p>Disfruta de un desayuno delicioso para comenzar el día con buen pie.</p><p>Solo 11 €/adulto y 6,60 €/niño por noche.</p><p>Se incluyen un bufé caliente, productos de pastelería, embutidos, quesos, fruta, cereales y yogures.</p>",
+              "cta": {
+                "accept": "Añadir desayuno para todos",
+                "reject": "Continuar sin desayuno"
+              }
+            }
+          },
+          {
+            "ratePlanCode": "5251821",
+            "amtTotal": 353.92,
+            "discountType": "Percent",
+            "discount": 88.48,
+            "firstDayRate": 176.96,
+            "roomTypeCode": "501964",
+            "isFeatured": false,
+            "amtTotalOld": 442.40000000000003,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706141",
+            "amtTotal": 452.32,
+            "discountType": "Percent",
+            "discount": 113.08,
+            "firstDayRate": 226.16,
+            "roomTypeCode": "501964",
+            "isFeatured": false,
+            "amtTotalOld": 565.4,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706177",
+            "amtTotal": 546.72,
+            "discountType": "Percent",
+            "discount": 136.68,
+            "firstDayRate": 273.36,
+            "roomTypeCode": "501964",
+            "isFeatured": false,
+            "amtTotalOld": 683.4000000000001,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          }
+        ],
+        "categoryName": "STANDARD"
+      },
+      {
+        "roomTypeCode": "501975",
+        "roomTypeName": "Deluxe Superior Club San Juan",
+        "pmsRoomExternalCode": "CSJ",
+        "roomTypeName_es": "Deluxe Superior Club San Juan",
+        "categoryCode": "20882",
+        "shortDescription": "Lujosas habitaciones en un entorno privado y beneficios exclusivos. ",
+        "roomInfo": " +Acceso ilimitado a PortAventura Park durante toda la estancia según calendario de apertura. \n +1 día de acceso a Ferrari Land incluido por persona y estancia según calendario de apertura. \n +Express Premium gratuito para PortAventura Park (uno por persona y válido durante 1 día): acceso rápido a las principales atracciones y asientos preferentes en los teatros Templo Mágico Jing-Chou y en el Gran Teatro Imperial, según el calendario de espectáculos. \n +Desayuno exclusivo tipo bufé y a la carta en restaurante privado incluido. \n",
+        "includeInfo": " Conexión wifi gratuita. \n Aparcamiento gratuito en el hotel (según disponibilidad). \n Aperitivo gastronómico (todas las tardes de 19:00 a 20:30). \n Servicio de recogida y entrega de equipajes. \n Posibilidad de realizar el check-in online. \n Check-in preferente. \n Piscina exterior privada con jacuzzi. \n Albornoces y zapatillas (solo para adultos). \n Toallas para la piscina. \n Obsequio para los niños. \n Agua de cortesía (dos botellas por habitación a la llegada al hotel). \n Acceso gratuito a las siguientes instalaciones (sujeto a disponibilidad horaria y aforo, no pueden acceder los menores de 14 años; de 14 a 16 años deberán ir acompañados de un adulto): \n Gimnasio \n Piscina climatizada \n \nEquipamiento: \n Balcón o terraza \n Caja fuerte \n Aire acondicionado o calefacción centralizados \n Baño (con ducha y bañera) \n Secador de pelo \n Artículos de aseo personal de cortesía \n PortAventura Park permanecerá cerrado el día 14/11. Ferrari Land estará abierto. \n A partir del 13/11 y hasta el final de la temporada, Ferrari Land abrirá únicamente los sábados y domingos, excepto del 04/12 al 10/12 y del 25/12 al 07/01/24, que abrirá de lunes a domingo. \n",
+        "sortOrder": 3,
+        "mainImage": {
+          "type": "main-image",
+          "source": "/assets/hotel/112622/media/room/main-image/hc_-_csj_enhanced.jpg",
+          "sortOrder": 0
+        },
+        "averageRates": [
+          {
+            "roomTypeCode": "501975",
+            "rate": 335.72,
+            "discount": 67.144,
+            "ratePlanCode": "5251821",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Alojamiento y desayuno",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501975",
+            "rate": 397.22,
+            "discount": 79.444,
+            "ratePlanCode": "4706141",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Media pensión",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          },
+          {
+            "roomTypeCode": "501975",
+            "rate": 456.22,
+            "discount": 91.244,
+            "ratePlanCode": "4706177",
+            "available": true,
+            "merchandisedPromoData": {
+              "promotionId": "24584574",
+              "labelText": "¡20% DTO.!",
+              "saleText": "Pensión completa",
+              "merchandisingTerms": "•En los hoteles afiliados, las estancias de 1 y 2 noches incluyen un acceso a PortAventura Park y un acceso a Ferrari Land por persona durante la estancia. Las estancias de 3 noches o más incluyen un acceso a PortAventura Park y un acceso a Ferrari Land (el mismo día), más otro día de acceso a PortAventura Park. Sujecto a calendarios de apertura de los parques.\n•En los hoteles de PortAventura World, se incluye acceso ilimitado a PortAventura Park durante toda la estancia y un acceso por persona a Ferrari Land, según calendarios de apertura de los parques.\n•Promoción limitada a 20 habitaciones por noche.\n•Promoción no acumulable a otros descuentos de colectivos, ofertas o promociones.\n•Las reservas realizadas por teléfono o por correo electrónico a través de la central de reservas de PortAventura World conllevarán un gasto de gestión de 8  por reserva."
+            }
+          }
+        ],
+        "roomFeatures": [
+          {
+            "amenity": "People",
+            "image": {
+              "type": "image",
+              "source": "images/icons/occupant.svg",
+              "sortOrder": 1
+            },
+            "quantity": 4,
+            "type": "Occupancy"
+          },
+          {
+            "amenity": "Sq m / 258 Sq ft",
+            "image": {
+              "type": "image",
+              "source": "images/icons/measuring-square.svg",
+              "sortOrder": 1
+            },
+            "quantity": 24,
+            "type": "Size"
+          }
+        ],
+        "amenities": [
+          {
+            "name": "-1 cama 2x2 m + sofá cama 1’20m",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/queen_bed.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "-2 camas 1m + sofá cama 1,20m",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/sofa-bed.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Recepción 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/reception_desk.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Vigilancia 24 horas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/24_hour.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Despertador",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/alarm_clock.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Baño (con ducha o bañera)",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shower_in_bath.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Televisión por cable y satélite",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/cable_tv_2.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aire acondicionado o calefacción",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/heater_and_air_conditioner.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Conserjería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_counter.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Salas de conferencias",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/dining_table.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Cambio de divisas",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/money_exchange.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Ascensores",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/elevator.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Check out exprés",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/check_in_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Wifi gratis",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/wifi_labeled.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Tienda de souvenirs",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/shop.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Secador en la habitación",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/blow_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de lavandería",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/washer_and_dryer.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Instalaciones para reuniones",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/table_and_chairs.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Personal multilingüe",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/guest_service_personnel.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Habitaciones libres de humo",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/no_smoking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Aparcamiento exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/parking.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Piscina exterior",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/diving_into_pool.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Línea telefónica",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/telephone.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Parque infantil",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/garden_view_3.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Restaurante",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/plate.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Zona para sentarse",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/sitting_area.svg",
+              "sortOrder": 0
+            }
+          },
+          {
+            "name": "Servicio de mantenimiento",
+            "premium": false,
+            "image": {
+              "type": "icon",
+              "source": "/assets/hotel/default/media/iconography/icon/turndown_service_3.svg",
+              "sortOrder": 0
+            }
+          }
+        ],
+        "media": [
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_5_enhanced.jpg",
+            "sortOrder": 0
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_2_enhanced.jpg",
+            "sortOrder": 1
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_4_enhanced.jpg",
+            "sortOrder": 2
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_3_enhanced.jpg",
+            "sortOrder": 3
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_1_enhanced.jpg",
+            "sortOrder": 4
+          },
+          {
+            "type": "detail-image",
+            "source": "https://search.portaventuraworld.com/assets/hotel/112622/media/room/detail-image/hc_-_csj_-_8_enhanced.jpg",
+            "sortOrder": 5
+          }
+        ],
+        "nightlyRates": [
+          {
+            "ratePlanCode": "5251821",
+            "amtTotal": 537.152,
+            "discountType": "Percent",
+            "discount": 134.288,
+            "firstDayRate": 268.576,
+            "roomTypeCode": "501975",
+            "isFeatured": false,
+            "amtTotalOld": 671.44,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706141",
+            "amtTotal": 635.552,
+            "discountType": "Percent",
+            "discount": 158.888,
+            "firstDayRate": 317.776,
+            "roomTypeCode": "501975",
+            "isFeatured": false,
+            "amtTotalOld": 794.44,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          },
+          {
+            "ratePlanCode": "4706177",
+            "amtTotal": 729.952,
+            "discountType": "Percent",
+            "discount": 182.488,
+            "firstDayRate": 364.976,
+            "roomTypeCode": "501975",
+            "isFeatured": false,
+            "amtTotalOld": 912.44,
+            "ratePlanRecommendation": {
+              "isActive": false
+            }
+          }
+        ],
+        "categoryName": "DELUXE SUPERIOR"
+      }
+    ],
+    "ratePlans": [
+      {
+        "pmsRateExternalCode": "WEBFL1AD",
+        "ratePlanCode": "5251821",
+        "ratePlanType": "Regular",
+        "ratePlanDescription": "<b>Desayuno</b> Durante el check-in, en el hotel o en línea, te informarán sobre cómo elegir el turno del desayuno con nuestra aplicación móvil para poder acceder al bufé del hotel. \n<br> Te recordamos que el horario de entrada y salida del comedor debe coincidir con el del turno escogido.",
+        "ratePlanName": "¡20% DTO.!",
+        "ratePlanName_es": "¡20% DTO.!",
+        "cancellationPolicy": {
+          "policyDescription": "Cancelación sin gastos hasta 8 días antes del día de llegada al hotel. ",
+          "policyDescriptionModal": " 1 noche de gastos si cancelas entre 7 días antes y el mismo día de llegada al hotel o no se presenta.."
+        },
+        "guaranteePolicy": {
+          "policyCode": "628492",
+          "policyType": "Deposit",
+          "policyDescription": "Paga hoy la primera noche y extras, el resto en el hotel. --- Se realizará un depósito por valor de la primera noche así como el importe total de los servicios adicionales contratados.",
+          "acceptTender": "Credit Card, Alternate Payments",
+          "isInstallmentEnabled": false
+        },
+        "sortOrder": 1
+      },
+      {
+        "pmsRateExternalCode": "WEBFL1MP",
+        "ratePlanCode": "4706141",
+        "ratePlanType": "Regular",
+        "ratePlanDescription": "El régimen de media pensión incluye el desayuno bufé y la cena (sin incluir las bebidas a excepción del agua osmotizada). \n<br> \n<b>Media Pensión</b> \n<b>Desayuno</b> Durante el check-in,en el hotel o en línea, le informarán sobre cómo elegir el turno del desayuno con nuestra aplicación móvil para poder acceder al bufé del hotel. Te recordamos que el horario de entrada y salida del comedor debe coincidir con el del turno escogido.\n<br> \n<b>Cena</b> Cena: 19:30 - 23:00. El importe de las bebidas debe abonarse directamente en el restaurante. Se ruega utilizar tarjeta de crédito u otros medios de pago contactless.\n<br> Te recordamos que el horario de entrada y salida del comedor deben corresponder con los del turno escogido. \n<b>Dine Around </b> Los clientes con régimen de media pensión pueden ir a cenar al restaurante a la carta o al bufé de otro hotel del resort (abonando la diferencia, si existe, del importe contratado). Solicita el servicio en el mostrador de Información al cliente (sujeto a disponibilidad y a los calendarios de apertura).",
+        "ratePlanName": "¡20% DTO.!",
+        "ratePlanName_es": "¡20% DTO.!",
+        "cancellationPolicy": {
+          "policyDescription": "Cancelación sin gastos hasta 8 días antes del día de llegada al hotel. ",
+          "policyDescriptionModal": " 1 noche de gastos si cancelas entre 7 días antes y el mismo día de llegada al hotel o no se presenta.."
+        },
+        "guaranteePolicy": {
+          "policyCode": "628492",
+          "policyType": "Deposit",
+          "policyDescription": "Paga hoy la primera noche y extras, el resto en el hotel. --- Se realizará un depósito por valor de la primera noche así como el importe total de los servicios adicionales contratados.",
+          "acceptTender": "Credit Card, Alternate Payments",
+          "isInstallmentEnabled": false
+        },
+        "sortOrder": 2
+      },
+      {
+        "pmsRateExternalCode": "WEBFL1PC",
+        "ratePlanCode": "4706177",
+        "ratePlanType": "Regular",
+        "ratePlanDescription": "<b>Desayuno</b>Durante el check-in, en el hotel o en línea, te informarán sobre cómo elegir el turno con nuestra aplicación móvil para poder acceder al bufé del hotel.Te recordamos que el horario de entrada y salida del comedor debe coincidir con el del turno escogido \n<b>Comida</b>Al llegar al hotel, te entregaremos los tiques por persona que te correspondan según las noches de alojamiento.Cada vez que consumas, tendrás que entregar el tique correspondiente y mostrar la llave de la habitación.Recuerda que los puedes utilizar para la comida, el día de llegada o de salida.Puedes disfrutar de la comida en los autoservicios del parque. Los adultos tienen incluido el menú ofertado en cada autoservicio (1entrante + 1principal + postre + 1bebida). Los niños de hasta 12años tienen incluido el Menú Júnior\n<br>Autoservicios de PortAventura World donde puedes canjear el régimen de pensión completa, según horarios de apertura:\n<br>PortAventura Park: Canton, Bora Bora, Jeremias’ Food, The Old Steak House, La Cocina de Epi, La Cantina y Café Saula\n<br>Caribe Aquatic Park: Reggae Café y Focacceria\n<br>Si deseas disfrutar de restaurantes a la carta o de Pit Lane (Ferrari Land), puedes canjear tu pensión completa por valor de 17,50€/adulto y 9,75€/niño, y abonar la diferencia\n<br> En los menús anunciados como suplemento, la diferencia entre el importe del menú y el importe del vale de pensión completa deberá abonarse en efectivo o tarjeta. \n<b>Cena: 19:30-23:00</b>El importe de las bebidas debe abonarse directamente en el restaurante. Se ruega utilizar tarjeta de crédito u otros medios de pago contactless \n<b>Dine Around</b>Se puede cenar en el restaurante a la carta o al bufé de otro hotel del resort (abonando la diferencia, si existe, del importe contratado). Solicita el servicio en el mostrador de Información al cliente (sujeto a disponibilidad y a los calendarios de apertura)\n<br>El horario de entrada y salida del comedor deben corresponder con los del turno escogido",
+        "ratePlanName": "¡20% DTO.!",
+        "ratePlanName_es": "¡20% DTO.!",
+        "cancellationPolicy": {
+          "policyDescription": "Cancelación sin gastos hasta 8 días antes del día de llegada al hotel. ",
+          "policyDescriptionModal": " 1 noche de gastos si cancelas entre 7 días antes y el mismo día de llegada al hotel o no se presenta.."
+        },
+        "guaranteePolicy": {
+          "policyCode": "628492",
+          "policyType": "Deposit",
+          "policyDescription": "Paga hoy la primera noche y extras, el resto en el hotel. --- Se realizará un depósito por valor de la primera noche así como el importe total de los servicios adicionales contratados.",
+          "acceptTender": "Credit Card, Alternate Payments",
+          "isInstallmentEnabled": false
+        },
+        "sortOrder": 3
+      },
+      {
+        "pmsRateExternalCode": "WEBFL1SA",
+        "ratePlanCode": "4706157",
+        "ratePlanType": "Regular",
+        "ratePlanDescription": "Este régimen de alojamiento incluye la estancia en el hotel con todos los beneficios de alojarte en un hotel del resort.\n<br> Tendrás disponible la opción de desayunar y cenar en el hotel pagando en el momento el importe del servicio.\n<br> \n<br>",
+        "ratePlanName": "¡20% DTO.!",
+        "ratePlanName_es": "¡20% DTO.!",
+        "cancellationPolicy": {
+          "policyDescription": "Cancelación sin gastos hasta 8 días antes del día de llegada al hotel. ",
+          "policyDescriptionModal": " 1 noche de gastos si cancelas entre 7 días antes y el mismo día de llegada al hotel o no se presenta.."
+        },
+        "guaranteePolicy": {
+          "policyCode": "628492",
+          "policyType": "Deposit",
+          "policyDescription": "Paga hoy la primera noche y extras, el resto en el hotel. --- Se realizará un depósito por valor de la primera noche así como el importe total de los servicios adicionales contratados.",
+          "acceptTender": "Credit Card, Alternate Payments",
+          "isInstallmentEnabled": false
+        },
+        "sortOrder": 4
+      }
+    ],
+    "recommendations": []
+  }
