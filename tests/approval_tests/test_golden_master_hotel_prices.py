@@ -1,12 +1,11 @@
 from datetime import datetime
 from unittest import TestCase
-
+import json
 from mockito import when, unstub, contains
 import requests
-import json
+
 from approvaltests.approvals import verify
 from approvaltests import set_default_reporter
-from approvaltests.reporters import PythonNativeReporter
 
 from src.commands.download_hotel_prices import DownloadPrices
 from src.domain.portaventura_rates import PortaventuraRates
