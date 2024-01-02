@@ -1,9 +1,9 @@
+import json
 from dataclasses import dataclass
 from datetime import datetime
 import os
 from typing import List
 import requests
-import json
 
 
 @dataclass

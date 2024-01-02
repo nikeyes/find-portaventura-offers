@@ -1,12 +1,12 @@
 import builtins
 import json
-import unittest
+from unittest import TestCase
 from unittest.mock import patch, MagicMock
 from mockito import when, mock, verify, unstub
 from src.commands.download_tickets_prices import DownloadTicketPrices, TicketPrice
 
 
-class TestDownloadTicketPrices(unittest.TestCase):
+class TestDownloadTicketPrices(TestCase):
     def setUp(self) -> None:
         self.download_ticket_prices = DownloadTicketPrices()
         return super().setUp()
@@ -136,7 +136,6 @@ class TestDownloadTicketPrices(unittest.TestCase):
         self.assertEqual(result, expected_result)
 
     def test_download_and_save_to_file(self):
-
         mock_prices = [
             TicketPrice(date="2022-01-01", price=50),
             TicketPrice(date="2022-01-02", price=60),

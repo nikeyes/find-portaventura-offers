@@ -1,13 +1,13 @@
 TODAY=$(shell date +'%Y-%m-%d')
 TODAY_WITHOUT_DASHES=$(shell date +'%Y%m%d')
-DATE_END=2024-01-02
+DATE_END=2024-01-09
 MAX_OFFERS=30
 FILE_HOTELS=downloaded_data/hotels_$(TODAY_WITHOUT_DASHES)_a2_c2_6_10.json
 FILE_TICKETS=downloaded_data/tickets_$(TODAY_WITHOUT_DASHES).json
 
 .PHONY: test
 test:
-	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing --approvaltests-use-reporter='PythonNative'  --approvaltests-add-reporter="code" --approvaltests-add-reporter-args="--diff" tests/
+	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing --approvaltests-use-reporter='PythonNativeReporter'  --approvaltests-add-reporter="code" --approvaltests-add-reporter-args="--diff" tests/
 #	poetry run pytest -v --cov=src --no-cov-on-fail --cov-report=term-missing tests/
 
 .PHONY: download

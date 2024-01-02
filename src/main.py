@@ -33,7 +33,7 @@ def download_rates(date_ini: datetime, date_end: datetime, children: int, childr
     dp = DownloadPrices(
         date_execution=date_execution, date_ini=date_ini, date_end=date_end, children=children, children_ages=children_ages, adults=adults
     )
-    dp.download()
+    dp.download_and_save_to_file()
     click.echo("Rates downloaded successfully.")
 
 

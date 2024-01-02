@@ -1,6 +1,7 @@
 import json
 import os
 from datetime import datetime, timedelta
+from typing import List
 import requests
 from rich.progress import Progress, BarColumn, SpinnerColumn, TaskProgressColumn, TimeElapsedColumn, TimeRemainingColumn
 
@@ -33,7 +34,7 @@ class DownloadPrices:
         self.adults = adults
         self.file_name_hotels = self.get_file_name()
 
-    def download(self):
+    def download(self) -> PortaventuraRates:
         current_date = self.date_ini
         num_days = (self.date_end - self.date_ini).days + 1
 
@@ -71,6 +72,13 @@ class DownloadPrices:
 
             progress.update(analysing_task, completed=num_days)
 
+        return portaventura_rates
+
+    def download_and_save_to_file(self) -> None:
+        portaventura_prices = self.download()
+        self.save_hotels_prices(portaventura_prices)
+
+    def save_hotels_prices(self, portaventura_rates) -> None:
         file_path = os.path.join("downloaded_data", self.file_name_hotels)
         with open(file_path, "w", encoding="utf-8") as archivo:
             archivo.write(portaventura_rates.to_json())
