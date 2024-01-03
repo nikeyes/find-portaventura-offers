@@ -1,0 +1,149 @@
+{
+    "download_date_start": "2023-12-31",
+    "download_date_end": "2024-01-01",
+    "generic_query": {
+        "languageCode": "es",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-02",
+        "children": 2,
+        "adults": 2,
+        "childrenAges": [
+            6,
+            10
+        ],
+        "rooms": 1,
+        "maxChildren": 2,
+        "maxAdults": 2,
+        "coupon": "",
+        "couponType": "Discount",
+        "roomsArray": [
+            {
+                "adults": 2,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    10
+                ]
+            }
+        ]
+    },
+    "specific_query": {
+        "index": 0,
+        "languageCode": "es",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-02",
+        "hotelCode": 112624,
+        "rooms": [
+            {
+                "adults": 2,
+                "children": 2,
+                "childrenAges": [
+                    6,
+                    10
+                ]
+            }
+        ],
+        "coupon": "",
+        "couponType": "Discount"
+    },
+    "hotels_rate": [
+        {
+            "date": "2023-12-31",
+            "name": "Hotel El Paso",
+            "rate": 230.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Hotel Colorado Creek",
+            "rate": 240.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Hotel PortAventura",
+            "rate": 248.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Hotel Gold River",
+            "rate": 262.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 935,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 335.72,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2023-12-31",
+            "name": "Deluxe Colorado",
+            "rate": 1362,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Hotel El Paso",
+            "rate": 230.8,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Hotel Colorado Creek",
+            "rate": 240.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Hotel PortAventura",
+            "rate": 248.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Hotel Gold River",
+            "rate": 262.6,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 935,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Deluxe Superior Club San Juan",
+            "rate": 335.72,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2024-01-01",
+            "name": "Deluxe Colorado",
+            "rate": 1362,
+            "rate_old": null,
+            "discount": 0
+        }
+    ]
+}

@@ -4,7 +4,7 @@ import json
 from typing import List
 
 from commands.download_tickets_prices import TicketPrice
-from commands.occupancy import Occupancy
+from src.domain.occupancy import Occupancy
 
 
 @dataclass

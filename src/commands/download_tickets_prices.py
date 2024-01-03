@@ -1,9 +1,9 @@
+import json
 from dataclasses import dataclass
 from datetime import datetime
 import os
 from typing import List
 import requests
-import json
 
 
 @dataclass
@@ -24,6 +24,9 @@ class DownloadTicketPrices:
             archivo.write(json.dumps([price.__dict__ for price in ticket_prices], indent=4))
 
     def download(self) -> List[TicketPrice]:
+        # Extract from https://www.portaventuraworld.com/en/tickets
+        # Dated tickets -> Buy Tickets
+        # Extract from: https://book.portaventuraworld.com/es/tickets-funnel?group=1&type=1&product=83
         reqUrl = "https://book.portaventuraworld.com/funnel/tickets/calendar/es?language=es&ids=83"
 
         headersList = {"Accept": "*/*", "User-Agent": "Thunder Client (https://www.thunderclient.com)"}

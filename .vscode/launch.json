@@ -4,13 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "download-rates",
             "type": "python",
             "request": "launch",
             "program": "src/main.py",
             //"args": ["download-rates", "--date-ini", "2023-10-05", "--date-end", "2023-12-08", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
-            "args": ["download-rates", "--date-end", "2023-12-08", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
+            "args": ["download-rates", "--date-end", "2024-01-09", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
             "console": "integratedTerminal",
             "justMyCode": true
         },
