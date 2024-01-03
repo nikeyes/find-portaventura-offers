@@ -1,7 +1,7 @@
 from unittest import TestCase
 from assertpy import assert_that
 from src.commands.download_tickets_prices import TicketPrice
-from src.commands.occupancy import Occupancy
+from src.domain.occupancy import Occupancy
 
 
 class TestDownloadTicketPrices(TestCase):

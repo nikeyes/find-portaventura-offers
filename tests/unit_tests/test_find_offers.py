@@ -10,7 +10,7 @@ from src.commands.download_tickets_prices import TicketPrice
 from src.commands.find_offers import FindOffers, HotelOffer, HotelPrice
 
 
-from src.commands.occupancy import Occupancy
+from src.domain.occupancy import Occupancy
 
 
 class TestFindOffers(TestCase):

@@ -145,8 +145,8 @@ class TestDownloadTicketPrices(TestCase):
 
         self.download_ticket_prices.download_and_save_to_file()
 
-        verify(builtins, times=1).open(any, 'w')
         verify(self.download_ticket_prices, times=1).download()
+        verify(builtins, times=1).open(any, 'w')
 
 
 class MockContextManager:
