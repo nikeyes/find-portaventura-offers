@@ -1,6 +1,6 @@
 TODAY=$(shell date +'%Y-%m-%d')
 TODAY_WITHOUT_DASHES=$(shell date +'%Y%m%d')
-DATE_END=2024-01-09
+DATE_END=2025-01-09
 MAX_OFFERS=30
 FILE_HOTELS=downloaded_data/hotels_$(TODAY_WITHOUT_DASHES)_a2_c2_6_10.json
 FILE_TICKETS=downloaded_data/tickets_$(TODAY_WITHOUT_DASHES).json
