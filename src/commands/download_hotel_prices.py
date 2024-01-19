@@ -140,10 +140,10 @@ class DownloadPrices:
                 min_rate = min(room_type[0]['averageRates'], key=lambda x: x['rate'])
                 rate = min_rate['rate']
                 discount = min_rate['discount']
-
+                price = round(rate - discount, 2)
                 temp = {
                     "hotelName": room_type[0]["roomTypeName"],
-                    "ratePlan": {"rate": rate - discount, "rateOld": None, "discount": discount},
+                    "ratePlan": {"rate": price, "rateOld": None, "discount": discount},
                 }
                 hotel_rate = HotelRate(start_date, temp)
             return hotel_rate

@@ -189,6 +189,13 @@
         },
         {
             "date": "2024-02-23",
+            "name": "Hotel Vila Centric",
+            "rate": 181.008,
+            "rate_old": 201.12,
+            "discount": 20.112
+        },
+        {
+            "date": "2024-02-23",
             "name": "Hotel Gold River",
             "rate": 192.24,
             "rate_old": 213.60000000000002,
@@ -575,7 +582,7 @@
         {
             "date": "2024-03-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -638,7 +645,7 @@
         {
             "date": "2024-03-29",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -701,7 +708,7 @@
         {
             "date": "2024-03-30",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -1030,7 +1037,7 @@
         {
             "date": "2024-04-07",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 324.324,
+            "rate": 324.32,
             "rate_old": null,
             "discount": 36.036
         },
@@ -1065,7 +1072,7 @@
         {
             "date": "2024-04-08",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1100,7 +1107,7 @@
         {
             "date": "2024-04-09",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1135,7 +1142,7 @@
         {
             "date": "2024-04-10",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1170,7 +1177,7 @@
         {
             "date": "2024-04-11",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1219,7 +1226,7 @@
         {
             "date": "2024-04-12",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1275,7 +1282,7 @@
         {
             "date": "2024-04-13",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 343.728,
+            "rate": 343.73,
             "rate_old": null,
             "discount": 38.192
         },
@@ -1317,7 +1324,7 @@
         {
             "date": "2024-04-14",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 296.604,
+            "rate": 296.6,
             "rate_old": null,
             "discount": 32.956
         },
@@ -1352,7 +1359,7 @@
         {
             "date": "2024-04-15",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1387,7 +1394,7 @@
         {
             "date": "2024-04-16",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1422,7 +1429,7 @@
         {
             "date": "2024-04-17",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1457,7 +1464,7 @@
         {
             "date": "2024-04-18",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1499,7 +1506,7 @@
         {
             "date": "2024-04-19",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1555,7 +1562,7 @@
         {
             "date": "2024-04-20",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 343.728,
+            "rate": 343.73,
             "rate_old": null,
             "discount": 38.192
         },
@@ -1597,7 +1604,7 @@
         {
             "date": "2024-04-21",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 296.604,
+            "rate": 296.6,
             "rate_old": null,
             "discount": 32.956
         },
@@ -1695,7 +1702,7 @@
         {
             "date": "2024-04-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -1751,7 +1758,7 @@
         {
             "date": "2024-04-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 343.728,
+            "rate": 343.73,
             "rate_old": null,
             "discount": 38.192
         },
@@ -2059,7 +2066,7 @@
         {
             "date": "2024-05-04",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 336.798,
+            "rate": 336.8,
             "rate_old": null,
             "discount": 37.422
         },
@@ -2157,7 +2164,7 @@
         {
             "date": "2024-05-09",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -2206,7 +2213,7 @@
         {
             "date": "2024-05-10",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 393.624,
+            "rate": 393.62,
             "rate_old": null,
             "discount": 43.736
         },
@@ -2262,7 +2269,7 @@
         {
             "date": "2024-05-11",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 400.554,
+            "rate": 400.55,
             "rate_old": null,
             "discount": 44.506
         },
@@ -2479,7 +2486,7 @@
         {
             "date": "2024-05-18",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 507.276,
+            "rate": 507.28,
             "rate_old": null,
             "discount": 56.364
         },
@@ -2542,7 +2549,7 @@
         {
             "date": "2024-05-19",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -2675,7 +2682,7 @@
         {
             "date": "2024-05-24",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 331.254,
+            "rate": 331.25,
             "rate_old": null,
             "discount": 36.806
         },
@@ -2731,7 +2738,7 @@
         {
             "date": "2024-05-25",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -2773,7 +2780,7 @@
         {
             "date": "2024-05-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -2808,7 +2815,7 @@
         {
             "date": "2024-05-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 295.21799999999996,
+            "rate": 295.22,
             "rate_old": null,
             "discount": 32.802
         },
@@ -2843,7 +2850,7 @@
         {
             "date": "2024-05-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -2878,7 +2885,7 @@
         {
             "date": "2024-05-29",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -2962,7 +2969,7 @@
         {
             "date": "2024-05-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 331.254,
+            "rate": 331.25,
             "rate_old": null,
             "discount": 36.806
         },
@@ -3011,7 +3018,7 @@
         {
             "date": "2024-06-01",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -3088,7 +3095,7 @@
         {
             "date": "2024-06-03",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3123,7 +3130,7 @@
         {
             "date": "2024-06-04",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3158,7 +3165,7 @@
         {
             "date": "2024-06-05",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3193,7 +3200,7 @@
         {
             "date": "2024-06-06",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 332.64000000000004,
+            "rate": 332.64,
             "rate_old": null,
             "discount": 36.96
         },
@@ -3242,7 +3249,7 @@
         {
             "date": "2024-06-07",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 331.254,
+            "rate": 331.25,
             "rate_old": null,
             "discount": 36.806
         },
@@ -3298,7 +3305,7 @@
         {
             "date": "2024-06-08",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -3375,7 +3382,7 @@
         {
             "date": "2024-06-10",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3410,7 +3417,7 @@
         {
             "date": "2024-06-11",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3438,7 +3445,7 @@
         {
             "date": "2024-06-12",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 302.148,
+            "rate": 302.15,
             "rate_old": null,
             "discount": 33.572
         },
@@ -3459,7 +3466,7 @@
         {
             "date": "2024-06-13",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 332.64000000000004,
+            "rate": 332.64,
             "rate_old": null,
             "discount": 36.96
         },
@@ -3508,7 +3515,7 @@
         {
             "date": "2024-06-14",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 306.306,
+            "rate": 306.31,
             "rate_old": null,
             "discount": 34.034
         },
@@ -3564,7 +3571,7 @@
         {
             "date": "2024-06-15",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -3606,7 +3613,7 @@
         {
             "date": "2024-06-16",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 321.55199999999996,
+            "rate": 321.55,
             "rate_old": null,
             "discount": 35.728
         },
@@ -3634,7 +3641,7 @@
         {
             "date": "2024-06-17",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 332.64000000000004,
+            "rate": 332.64,
             "rate_old": null,
             "discount": 36.96
         },
@@ -3669,7 +3676,7 @@
         {
             "date": "2024-06-18",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 347.886,
+            "rate": 347.89,
             "rate_old": null,
             "discount": 38.654
         },
@@ -3767,7 +3774,7 @@
         {
             "date": "2024-06-21",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 331.254,
+            "rate": 331.25,
             "rate_old": null,
             "discount": 36.806
         },
@@ -3949,7 +3956,7 @@
         {
             "date": "2024-06-24",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 329.868,
+            "rate": 329.87,
             "rate_old": null,
             "discount": 36.652
         },
@@ -4012,7 +4019,7 @@
         {
             "date": "2024-06-25",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 385.308,
+            "rate": 385.31,
             "rate_old": null,
             "discount": 42.812
         },
@@ -4075,7 +4082,7 @@
         {
             "date": "2024-06-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -4138,7 +4145,7 @@
         {
             "date": "2024-06-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -4201,7 +4208,7 @@
         {
             "date": "2024-06-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -4264,7 +4271,7 @@
         {
             "date": "2024-06-29",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 419.958,
+            "rate": 419.96,
             "rate_old": null,
             "discount": 46.662
         },
@@ -4320,7 +4327,7 @@
         {
             "date": "2024-06-30",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 331.254,
+            "rate": 331.25,
             "rate_old": null,
             "discount": 36.806
         },
@@ -4712,7 +4719,7 @@
         {
             "date": "2024-07-08",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -4775,7 +4782,7 @@
         {
             "date": "2024-07-09",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 407.484,
+            "rate": 407.48,
             "rate_old": null,
             "discount": 45.276
         },
@@ -4838,7 +4845,7 @@
         {
             "date": "2024-07-10",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 386.694,
+            "rate": 386.69,
             "rate_old": null,
             "discount": 42.966
         },
@@ -4901,7 +4908,7 @@
         {
             "date": "2024-07-11",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 386.694,
+            "rate": 386.69,
             "rate_old": null,
             "discount": 42.966
         },
@@ -4964,7 +4971,7 @@
         {
             "date": "2024-07-12",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 376.992,
+            "rate": 376.99,
             "rate_old": null,
             "discount": 41.888
         },
@@ -5027,7 +5034,7 @@
         {
             "date": "2024-07-13",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -5090,7 +5097,7 @@
         {
             "date": "2024-07-14",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 342.342,
+            "rate": 342.34,
             "rate_old": null,
             "discount": 38.038
         },
@@ -5153,7 +5160,7 @@
         {
             "date": "2024-07-15",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 428.274,
+            "rate": 428.27,
             "rate_old": null,
             "discount": 47.586
         },
@@ -5216,7 +5223,7 @@
         {
             "date": "2024-07-16",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 490.64399999999995,
+            "rate": 490.64,
             "rate_old": null,
             "discount": 54.516
         },
@@ -5279,7 +5286,7 @@
         {
             "date": "2024-07-17",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5342,7 +5349,7 @@
         {
             "date": "2024-07-18",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5405,7 +5412,7 @@
         {
             "date": "2024-07-19",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5468,7 +5475,7 @@
         {
             "date": "2024-07-20",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -5531,7 +5538,7 @@
         {
             "date": "2024-07-21",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -5594,7 +5601,7 @@
         {
             "date": "2024-07-22",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -5657,7 +5664,7 @@
         {
             "date": "2024-07-23",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -5720,7 +5727,7 @@
         {
             "date": "2024-07-24",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5783,7 +5790,7 @@
         {
             "date": "2024-07-25",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5839,7 +5846,7 @@
         {
             "date": "2024-07-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -5895,7 +5902,7 @@
         {
             "date": "2024-07-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -5958,7 +5965,7 @@
         {
             "date": "2024-07-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 364.518,
+            "rate": 364.52,
             "rate_old": null,
             "discount": 40.502
         },
@@ -6021,7 +6028,7 @@
         {
             "date": "2024-07-29",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 494.80199999999996,
+            "rate": 494.8,
             "rate_old": null,
             "discount": 54.978
         },
@@ -6084,7 +6091,7 @@
         {
             "date": "2024-07-30",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 494.80199999999996,
+            "rate": 494.8,
             "rate_old": null,
             "discount": 54.978
         },
@@ -6147,7 +6154,7 @@
         {
             "date": "2024-07-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 455.994,
+            "rate": 455.99,
             "rate_old": null,
             "discount": 50.666
         },
@@ -6210,7 +6217,7 @@
         {
             "date": "2024-08-01",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -6273,7 +6280,7 @@
         {
             "date": "2024-08-02",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -6336,7 +6343,7 @@
         {
             "date": "2024-08-03",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 447.678,
+            "rate": 447.68,
             "rate_old": null,
             "discount": 49.742
         },
@@ -6399,7 +6406,7 @@
         {
             "date": "2024-08-04",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -6462,7 +6469,7 @@
         {
             "date": "2024-08-05",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -6525,7 +6532,7 @@
         {
             "date": "2024-08-06",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -6588,7 +6595,7 @@
         {
             "date": "2024-08-07",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -6651,7 +6658,7 @@
         {
             "date": "2024-08-08",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -6714,7 +6721,7 @@
         {
             "date": "2024-08-09",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -6777,7 +6784,7 @@
         {
             "date": "2024-08-10",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 447.678,
+            "rate": 447.68,
             "rate_old": null,
             "discount": 49.742
         },
@@ -6840,7 +6847,7 @@
         {
             "date": "2024-08-11",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -6903,7 +6910,7 @@
         {
             "date": "2024-08-12",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -6966,7 +6973,7 @@
         {
             "date": "2024-08-13",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },
@@ -7029,7 +7036,7 @@
         {
             "date": "2024-08-14",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -7092,7 +7099,7 @@
         {
             "date": "2024-08-15",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -7155,7 +7162,7 @@
         {
             "date": "2024-08-16",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 406.098,
+            "rate": 406.1,
             "rate_old": null,
             "discount": 45.122
         },
@@ -7218,7 +7225,7 @@
         {
             "date": "2024-08-17",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 461.53800000000007,
+            "rate": 461.54,
             "rate_old": null,
             "discount": 51.282
         },
@@ -7281,7 +7288,7 @@
         {
             "date": "2024-08-18",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 378.37800000000004,
+            "rate": 378.38,
             "rate_old": null,
             "discount": 42.042
         },
@@ -7344,7 +7351,7 @@
         {
             "date": "2024-08-19",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 490.64399999999995,
+            "rate": 490.64,
             "rate_old": null,
             "discount": 54.516
         },
@@ -7407,7 +7414,7 @@
         {
             "date": "2024-08-20",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 505.89000000000004,
+            "rate": 505.89,
             "rate_old": null,
             "discount": 56.21
         },
@@ -7470,7 +7477,7 @@
         {
             "date": "2024-08-21",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 447.678,
+            "rate": 447.68,
             "rate_old": null,
             "discount": 49.742
         },
@@ -7533,7 +7540,7 @@
         {
             "date": "2024-08-22",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 462.92400000000004,
+            "rate": 462.92,
             "rate_old": null,
             "discount": 51.436
         },
@@ -7596,7 +7603,7 @@
         {
             "date": "2024-08-23",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 462.92400000000004,
+            "rate": 462.92,
             "rate_old": null,
             "discount": 51.436
         },
@@ -7659,7 +7666,7 @@
         {
             "date": "2024-08-24",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 550.242,
+            "rate": 550.24,
             "rate_old": null,
             "discount": 61.138
         },
@@ -7722,7 +7729,7 @@
         {
             "date": "2024-08-25",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 437.976,
+            "rate": 437.98,
             "rate_old": null,
             "discount": 48.664
         },
@@ -7785,7 +7792,7 @@
         {
             "date": "2024-08-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -7848,7 +7855,7 @@
         {
             "date": "2024-08-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -7904,7 +7911,7 @@
         {
             "date": "2024-08-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 356.202,
+            "rate": 356.2,
             "rate_old": null,
             "discount": 39.578
         },
@@ -7967,7 +7974,7 @@
         {
             "date": "2024-08-29",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 383.92199999999997,
+            "rate": 383.92,
             "rate_old": null,
             "discount": 42.658
         },
@@ -8093,7 +8100,7 @@
         {
             "date": "2024-08-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 426.888,
+            "rate": 426.89,
             "rate_old": null,
             "discount": 47.432
         },
@@ -8534,7 +8541,7 @@
         {
             "date": "2024-09-07",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 392.238,
+            "rate": 392.24,
             "rate_old": null,
             "discount": 43.582
         },
@@ -8758,7 +8765,7 @@
         {
             "date": "2024-09-14",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 399.168,
+            "rate": 399.17,
             "rate_old": null,
             "discount": 44.352
         },
@@ -8919,7 +8926,7 @@
         {
             "date": "2024-09-21",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 399.168,
+            "rate": 399.17,
             "rate_old": null,
             "discount": 44.352
         },
@@ -9022,6 +9029,41 @@
             "discount": 21.08
         },
         {
+            "date": "2024-09-27",
+            "name": "Hotel Roulette",
+            "rate": 166.14,
+            "rate_old": 184.6,
+            "discount": 18.46
+        },
+        {
+            "date": "2024-09-27",
+            "name": "Hotel El Paso",
+            "rate": 172.44,
+            "rate_old": 191.6,
+            "discount": 19.16
+        },
+        {
+            "date": "2024-09-27",
+            "name": "Hotel Gold River",
+            "rate": 185.94,
+            "rate_old": 206.6,
+            "discount": 20.66
+        },
+        {
+            "date": "2024-09-27",
+            "name": "Hotel PortAventura",
+            "rate": 185.94,
+            "rate_old": 206.6,
+            "discount": 20.66
+        },
+        {
+            "date": "2024-09-27",
+            "name": "Hotel Mansión de Lucy",
+            "rate": 612,
+            "rate_old": 680,
+            "discount": 68
+        },
+        {
             "date": "2024-09-28",
             "name": "Hotel Roulette",
             "rate": 274.5,
@@ -9073,7 +9115,7 @@
         {
             "date": "2024-09-28",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 426.888,
+            "rate": 426.89,
             "rate_old": null,
             "discount": 47.432
         },
@@ -9479,7 +9521,7 @@
         {
             "date": "2024-10-12",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 447.678,
+            "rate": 447.68,
             "rate_old": null,
             "discount": 49.742
         },
@@ -9696,7 +9738,7 @@
         {
             "date": "2024-10-19",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 447.678,
+            "rate": 447.68,
             "rate_old": null,
             "discount": 49.742
         },
@@ -9706,41 +9748,6 @@
             "rate": 481.95,
             "rate_old": null,
             "discount": 53.55
-        },
-        {
-            "date": "2024-10-20",
-            "name": "Hotel Roulette",
-            "rate": 176.22,
-            "rate_old": 195.8,
-            "discount": 19.58
-        },
-        {
-            "date": "2024-10-20",
-            "name": "Hotel Caribe",
-            "rate": 182.52,
-            "rate_old": 216.8,
-            "discount": 20.28
-        },
-        {
-            "date": "2024-10-20",
-            "name": "Hotel El Paso",
-            "rate": 188.82,
-            "rate_old": 209.79999999999998,
-            "discount": 20.98
-        },
-        {
-            "date": "2024-10-20",
-            "name": "Hotel Gold River",
-            "rate": 216.18,
-            "rate_old": 240.20000000000002,
-            "discount": 24.02
-        },
-        {
-            "date": "2024-10-20",
-            "name": "Hotel Mansión de Lucy",
-            "rate": 706.86,
-            "rate_old": 785.4,
-            "discount": 78.54
         },
         {
             "date": "2024-10-20",
@@ -9990,7 +9997,7 @@
         {
             "date": "2024-10-26",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 468.46799999999996,
+            "rate": 468.47,
             "rate_old": null,
             "discount": 52.052
         },
@@ -10053,7 +10060,7 @@
         {
             "date": "2024-10-27",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 468.46799999999996,
+            "rate": 468.47,
             "rate_old": null,
             "discount": 52.052
         },
@@ -10305,7 +10312,7 @@
         {
             "date": "2024-10-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 468.46799999999996,
+            "rate": 468.47,
             "rate_old": null,
             "discount": 52.052
         },
@@ -10368,7 +10375,7 @@
         {
             "date": "2024-11-01",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 291.05999999999995,
+            "rate": 291.06,
             "rate_old": null,
             "discount": 32.34
         },
@@ -10431,7 +10438,7 @@
         {
             "date": "2024-11-02",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 468.46799999999996,
+            "rate": 468.47,
             "rate_old": null,
             "discount": 52.052
         },
@@ -10550,7 +10557,7 @@
         {
             "date": "2024-11-09",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 433.818,
+            "rate": 433.82,
             "rate_old": null,
             "discount": 48.202
         },

@@ -85,7 +85,7 @@
         {
             "date": "2023-12-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 268.576,
+            "rate": 268.58,
             "rate_old": null,
             "discount": 67.144
         },
@@ -134,7 +134,7 @@
         {
             "date": "2024-01-01",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 268.576,
+            "rate": 268.58,
             "rate_old": null,
             "discount": 67.144
         },
