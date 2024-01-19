@@ -137,9 +137,14 @@ class DownloadPrices:
             room_type = self.find_room_type(rates_json, room_type_to_find)
             hotel_rate = None
             if len(room_type) > 0:
-                min_rate = min((room['averageRates'][0]['rate'] for room in room_type), default=999999)
+                min_rate = min(room_type[0]['averageRates'], key=lambda x: x['rate'])
+                rate = min_rate['rate']
+                discount = min_rate['discount']
 
-                temp = {"hotelName": room_type[0]["roomTypeName"], "ratePlan": {"rate": min_rate, "rateOld": None, "discount": 0}}
+                temp = {
+                    "hotelName": room_type[0]["roomTypeName"],
+                    "ratePlan": {"rate": rate - discount, "rateOld": None, "discount": discount},
+                }
                 hotel_rate = HotelRate(start_date, temp)
             return hotel_rate
 

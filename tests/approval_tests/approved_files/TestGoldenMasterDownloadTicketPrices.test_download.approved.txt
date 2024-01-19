@@ -85,16 +85,16 @@
         {
             "date": "2023-12-31",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 335.72,
+            "rate": 268.576,
             "rate_old": null,
-            "discount": 0
+            "discount": 67.144
         },
         {
             "date": "2023-12-31",
             "name": "Deluxe Colorado",
-            "rate": 1362,
+            "rate": 817.2,
             "rate_old": null,
-            "discount": 0
+            "discount": 544.8
         },
         {
             "date": "2024-01-01",
@@ -134,16 +134,16 @@
         {
             "date": "2024-01-01",
             "name": "Deluxe Superior Club San Juan",
-            "rate": 335.72,
+            "rate": 268.576,
             "rate_old": null,
-            "discount": 0
+            "discount": 67.144
         },
         {
             "date": "2024-01-01",
             "name": "Deluxe Colorado",
-            "rate": 1362,
+            "rate": 817.2,
             "rate_old": null,
-            "discount": 0
+            "discount": 544.8
         }
     ]
 }

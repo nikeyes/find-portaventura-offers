@@ -11,7 +11,7 @@
             "request": "launch",
             "program": "src/main.py",
             //"args": ["download-rates", "--date-ini", "2023-10-05", "--date-end", "2023-12-08", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
-            "args": ["download-rates", "--date-end", "2024-01-09", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
+            "args": ["download-rates", "--date-ini", "2024-06-14", "--date-end", "2024-06-15", "--adults", "2",  "--children", "2", "--children-ages", "6,9" ],
             "console": "integratedTerminal",
             "justMyCode": true
         },

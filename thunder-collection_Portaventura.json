@@ -1,0 +1,81 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Portaventura",
+    "dateExported": "2024-01-17T22:22:59.917Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2865464f-8c48-41ab-bfc6-27c39ed774bf",
+            "colId": "9480b4bf-d949-4a81-ae7c-7cd20fb5d932",
+            "containerId": "",
+            "name": "Club Sanjuan prices",
+            "url": "https://book.portaventuraworld.com/funnel/hotels/rooms",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-01-17T22:09:13.012Z",
+            "modified": "2024-01-17T22:10:05.145Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"index\":0,\"languageCode\":\"en\",\"startDate\":\"2024-06-14\",\"endDate\":\"2024-06-15\",\"hotelCode\":112622,\"rooms\":[{\"adults\":2,\"children\":2,\"childrenAges\":[7,10]}],\"coupon\":\"\",\"couponType\":\"Discount\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1f9b01bc-f7d5-4163-8985-60bcbf1197a0",
+            "colId": "9480b4bf-d949-4a81-ae7c-7cd20fb5d932",
+            "containerId": "",
+            "name": "Deluxe Colorado Creek prices",
+            "url": "https://book.portaventuraworld.com/funnel/hotels/rooms",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-17T22:11:54.639Z",
+            "modified": "2024-01-17T22:13:01.355Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"index\":0,\"languageCode\":\"en\",\"startDate\":\"2024-03-30\",\"endDate\":\"2024-03-31\",\"hotelCode\":112624,\"rooms\":[{\"adults\":2,\"children\":2,\"childrenAges\":[7,10]}],\"coupon\":\"\",\"couponType\":\"Discount\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1a1a3a8f-7ec2-4606-85ca-236194b8d8b8",
+            "colId": "9480b4bf-d949-4a81-ae7c-7cd20fb5d932",
+            "containerId": "",
+            "name": "Generic rooms prices",
+            "url": "https://book.portaventuraworld.com/funnel/hotels/chain",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-01-17T22:16:39.977Z",
+            "modified": "2024-01-17T22:20:25.062Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"languageCode\":\"en\",\"startDate\":\"2024-03-30\",\"endDate\":\"2024-03-31\",\"children\":2,\"adults\":2,\"childrenAges\":[7,10],\"rooms\":1,\"maxChildren\":2,\"maxAdults\":2,\"coupon\":\"\",\"couponType\":\"Discount\",\"roomsArray\":[{\"adults\":2,\"children\":2,\"childrenAges\":[7,10]}]}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

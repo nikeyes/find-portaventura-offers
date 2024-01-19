@@ -20,5 +20,4 @@ find:
 
 .PHONY: find_and_send
 find_and_send:
-	poetry run python src/main.py find-offers --hotel-prices $(FILE_HOTELS) --ticket-prices $(FILE_TICKETS) --date-end $(DATE_END) --max-offers $(MAX_OFFERS) --emails nikey_es@yahoo.es,evamoga@gmail.com  
-
+	poetry run python src/main.py find-offers --hotel-prices $(FILE_HOTELS) --ticket-prices $(FILE_TICKETS) --date-end $(DATE_END) --max-offers $(MAX_OFFERS) --emails evamoga@gmail.com  
