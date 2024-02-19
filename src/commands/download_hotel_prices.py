@@ -154,7 +154,7 @@ class DownloadPrices:
 
         payload = json.dumps(portaventura_rates.get_generic_hotels_query(start_date=start_date, end_date=end_date))
 
-        return requests.post(url, data=payload, headers=headers, timeout=10)
+        return requests.post(url, data=payload, headers=headers, timeout=30)
 
     def make_specific_hotel_request(self, hotel_code: str, portaventura_rates: PortaventuraRates, start_date: str, end_date: str):
         url = "https://book.portaventuraworld.com/funnel/hotels/rooms"
@@ -162,8 +162,38 @@ class DownloadPrices:
 
         payload = json.dumps(portaventura_rates.get_specific_hotel_query(hotel_code=hotel_code, start_date=start_date, end_date=end_date))
 
-        return requests.post(url, data=payload, headers=headers, timeout=10)
+        return requests.post(url, data=payload, headers=headers, timeout=30)
 
     def find_room_type(self, data, room_type_to_find):
         found_room_types = [room_type for room_type in data['allRoomTypes'] if room_type.get('roomTypeName') == room_type_to_find]
         return found_room_types
+
+
+    # from requests.adapters import HTTPAdapter
+    # from requests.packages.urllib3.util.retry import Retry
+
+    # def make_specific_hotel_request(self, hotel_code: str, portaventura_rates: PortaventuraRates, start_date: str, end_date: str):
+    #     url = "https://book.portaventuraworld.com/funnel/hotels/rooms"
+    #     headers = {"Content-Type": "application/json"}
+
+    #     payload = json.dumps(portaventura_rates.get_specific_hotel_query(hotel_code=hotel_code, start_date=start_date, end_date=end_date))
+
+    #     session = requests.Session()
+    #     retries = Retry(total=5, backoff_factor=1, status_forcelist=[ 500, 502, 503, 504 ])
+    #     session.mount('http://', HTTPAdapter(max_retries=retries))
+    #     session.mount('https://', HTTPAdapter(max_retries=retries))
+
+    #     return session.post(url, data=payload, headers=headers, timeout=10)
+
+    # from urllib3.util import Retry
+    # from requests import Session
+    # from requests.adapters import HTTPAdapter
+
+    # s = Session()
+    # retries = Retry(
+    #     total=3,
+    #     backoff_factor=0.1,
+    #     status_forcelist=[502, 503, 504],
+    #     allowed_methods={'POST'},
+    # )
+    # s.mount('https://', HTTPAdapter(max_retries=retries))
