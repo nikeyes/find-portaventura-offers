@@ -1,8 +1,9 @@
 TODAY=$(shell date +'%Y-%m-%d')
 TODAY_WITHOUT_DASHES=$(shell date +'%Y%m%d')
-DATE_END=2025-12-31
+DATE_END=2025-09-25
 MAX_OFFERS=30
 FILE_HOTELS=downloaded_data/hotels_$(TODAY_WITHOUT_DASHES)_a3_c3_2_7_11.json
+# FILE_HOTELS=downloaded_data/hotels_$(TODAY_WITHOUT_DASHES)_a3_c2_7_11.json
 FILE_TICKETS=downloaded_data/tickets_$(TODAY_WITHOUT_DASHES).json
 
 .PHONY: test
@@ -13,6 +14,7 @@ test:
 .PHONY: download
 download: test
 	poetry run python src/main.py download-rates --date-ini $(TODAY) --date-end $(DATE_END) --adults 3 --children 3 --children-ages 2,7,11
+# poetry run python src/main.py download-rates --date-ini $(TODAY) --date-end $(DATE_END) --adults 3 --children 2 --children-ages 7,11
 
 .PHONY: find
 find:

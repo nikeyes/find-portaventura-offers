@@ -1,0 +1,4153 @@
+{
+    "download_date_start": "2025-05-09",
+    "download_date_end": "2026-01-15",
+    "generic_query": {
+        "languageCode": "es",
+        "startDate": "2026-01-15",
+        "endDate": "2026-01-16",
+        "children": 2,
+        "adults": 3,
+        "childrenAges": [
+            7,
+            11
+        ],
+        "rooms": 1,
+        "maxChildren": 2,
+        "maxAdults": 3,
+        "coupon": "",
+        "couponType": "Discount",
+        "roomsArray": [
+            {
+                "adults": 3,
+                "children": 2,
+                "childrenAges": [
+                    7,
+                    11
+                ]
+            }
+        ]
+    },
+    "specific_query": {
+        "index": 0,
+        "languageCode": "es",
+        "startDate": "2026-01-15",
+        "endDate": "2026-01-16",
+        "hotelCode": 112624,
+        "rooms": [
+            {
+                "adults": 3,
+                "children": 2,
+                "childrenAges": [
+                    7,
+                    11
+                ]
+            }
+        ],
+        "coupon": "",
+        "couponType": "Discount"
+    },
+    "hotels_rate": [
+        {
+            "date": "2025-05-09",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-09",
+            "name": "Hotel Gold River",
+            "rate": 535.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-10",
+            "name": "Hotel Caribe",
+            "rate": 376.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-10",
+            "name": "Hotel Colorado Creek",
+            "rate": 400.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-10",
+            "name": "Hotel Gold River",
+            "rate": 474.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-11",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-11",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-12",
+            "name": "Hotel Gold River",
+            "rate": 299.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-13",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-14",
+            "name": "Hotel Gold River",
+            "rate": 299.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-15",
+            "name": "Hotel PortAventura",
+            "rate": 204.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-15",
+            "name": "Hotel Gold River",
+            "rate": 299.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-16",
+            "name": "Hotel Gold River",
+            "rate": 299.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-16",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-17",
+            "name": "Hotel Colorado Creek",
+            "rate": 496.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-17",
+            "name": "Hotel Gold River",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-17",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-18",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-19",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-20",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-20",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-21",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-21",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-22",
+            "name": "Hotel PortAventura",
+            "rate": 204.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-22",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-23",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-23",
+            "name": "Hotel Gold River",
+            "rate": 330.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-24",
+            "name": "Hotel PortAventura",
+            "rate": 393.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-24",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-24",
+            "name": "Hotel Gold River",
+            "rate": 535.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-24",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-25",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-25",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-26",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-26",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-27",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-27",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-28",
+            "name": "Ponient Pirámide Salou",
+            "rate": 270,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-28",
+            "name": "Hotel Caribe",
+            "rate": 376.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-28",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-29",
+            "name": "Ponient Pirámide Salou",
+            "rate": 410,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-29",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-30",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-30",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-31",
+            "name": "Ponient Pirámide Salou",
+            "rate": 375,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-31",
+            "name": "Hotel Caribe",
+            "rate": 403.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-31",
+            "name": "Hotel Colorado Creek",
+            "rate": 431.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-05-31",
+            "name": "Hotel Gold River",
+            "rate": 451.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-01",
+            "name": "Ponient Pirámide Salou",
+            "rate": 270,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-01",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-01",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-02",
+            "name": "Ponient Pirámide Salou",
+            "rate": 278.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-02",
+            "name": "Hotel Caribe",
+            "rate": 355.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-02",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-03",
+            "name": "Ponient Pirámide Salou",
+            "rate": 278.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-03",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-03",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-04",
+            "name": "Ponient Pirámide Salou",
+            "rate": 278.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-04",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-04",
+            "name": "Hotel Caribe",
+            "rate": 408.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-05",
+            "name": "Ponient Pirámide Salou",
+            "rate": 278.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-05",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-05",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-06",
+            "name": "Hotel PortAventura",
+            "rate": 204.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-06",
+            "name": "Ponient Pirámide Salou",
+            "rate": 287.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-06",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-06",
+            "name": "Hotel Gold River",
+            "rate": 330.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-07",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-07",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-07",
+            "name": "Hotel Colorado Creek",
+            "rate": 601.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-08",
+            "name": "Hotel Caribe",
+            "rate": 350.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-08",
+            "name": "Ponient Pirámide Salou",
+            "rate": 357.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-08",
+            "name": "Hotel Colorado Creek",
+            "rate": 419.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-08",
+            "name": "Hotel Gold River",
+            "rate": 439.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-09",
+            "name": "Hotel Caribe",
+            "rate": 303.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-09",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-09",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-10",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-10",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-10",
+            "name": "Hotel Caribe",
+            "rate": 469.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-11",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-11",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-11",
+            "name": "Hotel Caribe",
+            "rate": 469.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-12",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-12",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-12",
+            "name": "Hotel Caribe",
+            "rate": 390.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-13",
+            "name": "Hotel Caribe",
+            "rate": 355.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-13",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-14",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-14",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-14",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-15",
+            "name": "Ponient Pirámide Salou",
+            "rate": 357.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-15",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-15",
+            "name": "Hotel Caribe",
+            "rate": 390.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-16",
+            "name": "Ponient Pirámide Salou",
+            "rate": 383.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-16",
+            "name": "Hotel Gold River",
+            "rate": 386.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-17",
+            "name": "Hotel Gold River",
+            "rate": 386.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-17",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-18",
+            "name": "Hotel Gold River",
+            "rate": 386.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-18",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-19",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-20",
+            "name": "Hotel Caribe",
+            "rate": 390.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-20",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-21",
+            "name": "Hotel Gold River",
+            "rate": 570.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-21",
+            "name": "Hotel Colorado Creek",
+            "rate": 589.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-21",
+            "name": "Hotel Caribe",
+            "rate": 602.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-22",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-22",
+            "name": "Hotel Gold River",
+            "rate": 427,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-22",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-22",
+            "name": "Hotel Colorado Creek",
+            "rate": 484.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-23",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-23",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-23",
+            "name": "Hotel Colorado Creek",
+            "rate": 589.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-24",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-24",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-24",
+            "name": "Hotel Colorado Creek",
+            "rate": 522.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-25",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-25",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 522.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-26",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-26",
+            "name": "Hotel Colorado Creek",
+            "rate": 484.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-26",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-27",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 484.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-27",
+            "name": "Hotel Caribe",
+            "rate": 523.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-28",
+            "name": "Hotel Gold River",
+            "rate": 570.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-28",
+            "name": "Hotel Caribe",
+            "rate": 576.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-28",
+            "name": "Hotel Colorado Creek",
+            "rate": 653.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-29",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-29",
+            "name": "Hotel Caribe",
+            "rate": 417.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-29",
+            "name": "Hotel Colorado Creek",
+            "rate": 431.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-30",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-30",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-06-30",
+            "name": "Hotel Colorado Creek",
+            "rate": 522.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-01",
+            "name": "Hotel PortAventura",
+            "rate": 341.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-01",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-01",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-01",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-02",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-02",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-03",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-03",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-03",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-04",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-04",
+            "name": "Hotel Caribe",
+            "rate": 497.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 522.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-05",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-05",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-05",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-06",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-06",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-06",
+            "name": "Hotel Colorado Creek",
+            "rate": 470.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-07",
+            "name": "Hotel Caribe",
+            "rate": 497.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-07",
+            "name": "Hotel Colorado Creek",
+            "rate": 562.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-07",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-08",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-08",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-08",
+            "name": "Hotel Colorado Creek",
+            "rate": 653.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-09",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-09",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-09",
+            "name": "Hotel Colorado Creek",
+            "rate": 589.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-10",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-10",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-10",
+            "name": "Hotel Colorado Creek",
+            "rate": 589.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-11",
+            "name": "Hotel PortAventura",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-11",
+            "name": "Hotel Caribe",
+            "rate": 483.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-11",
+            "name": "Hotel Gold River",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-11",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-12",
+            "name": "Hotel PortAventura",
+            "rate": 437.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-12",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-12",
+            "name": "Hotel Caribe",
+            "rate": 602.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-12",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-13",
+            "name": "Hotel Caribe",
+            "rate": 432.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-13",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-13",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-14",
+            "name": "Hotel PortAventura",
+            "rate": 420,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-14",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-14",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-14",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-15",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-15",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-15",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-16",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-16",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-16",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-17",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-17",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-17",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-18",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-18",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-18",
+            "name": "Hotel Colorado Creek",
+            "rate": 601.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-19",
+            "name": "Hotel PortAventura",
+            "rate": 437.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-19",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-19",
+            "name": "Hotel Caribe",
+            "rate": 602.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-19",
+            "name": "Hotel Colorado Creek",
+            "rate": 666.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-20",
+            "name": "Hotel Caribe",
+            "rate": 432.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-20",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-20",
+            "name": "Hotel Colorado Creek",
+            "rate": 562.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-21",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-21",
+            "name": "Hotel Gold River",
+            "rate": 619.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-21",
+            "name": "Hotel Colorado Creek",
+            "rate": 666.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-22",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-22",
+            "name": "Hotel Gold River",
+            "rate": 630,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-22",
+            "name": "Hotel Colorado Creek",
+            "rate": 680.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-23",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-23",
+            "name": "Hotel Gold River",
+            "rate": 630,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-23",
+            "name": "Hotel Colorado Creek",
+            "rate": 680.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-24",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-24",
+            "name": "Hotel Gold River",
+            "rate": 619.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-24",
+            "name": "Hotel Colorado Creek",
+            "rate": 666.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-25",
+            "name": "Hotel PortAventura",
+            "rate": 455,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-25",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-25",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 653.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-26",
+            "name": "Hotel Caribe",
+            "rate": 590.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-26",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-26",
+            "name": "Hotel Colorado Creek",
+            "rate": 653.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-27",
+            "name": "Hotel Caribe",
+            "rate": 443.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-27",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-28",
+            "name": "Hotel Caribe",
+            "rate": 590.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-28",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-28",
+            "name": "Hotel Colorado Creek",
+            "rate": 653.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-29",
+            "name": "Hotel PortAventura",
+            "rate": 455,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-29",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-29",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-29",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-30",
+            "name": "Hotel PortAventura",
+            "rate": 428.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-30",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-30",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-30",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-31",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-31",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-07-31",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-01",
+            "name": "Hotel PortAventura",
+            "rate": 428.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-01",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-01",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-01",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-02",
+            "name": "Hotel PortAventura",
+            "rate": 455,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-02",
+            "name": "Hotel Gold River",
+            "rate": 630,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-02",
+            "name": "Hotel Caribe",
+            "rate": 642.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 666.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-03",
+            "name": "Hotel Caribe",
+            "rate": 523.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-03",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-03",
+            "name": "Hotel Colorado Creek",
+            "rate": 575.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-04",
+            "name": "Hotel Caribe",
+            "rate": 630.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-04",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 744.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-05",
+            "name": "Hotel PortAventura",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-05",
+            "name": "Hotel Caribe",
+            "rate": 630.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-05",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-05",
+            "name": "Hotel Colorado Creek",
+            "rate": 744.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-06",
+            "name": "Hotel Caribe",
+            "rate": 630.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-06",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-06",
+            "name": "Hotel Colorado Creek",
+            "rate": 744.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-07",
+            "name": "Hotel Caribe",
+            "rate": 630.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-07",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-07",
+            "name": "Hotel Colorado Creek",
+            "rate": 744.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-08",
+            "name": "Hotel PortAventura",
+            "rate": 483,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-08",
+            "name": "Hotel Caribe",
+            "rate": 590.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-08",
+            "name": "Hotel Gold River",
+            "rate": 654.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-08",
+            "name": "Hotel Colorado Creek",
+            "rate": 718.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-09",
+            "name": "Hotel Caribe",
+            "rate": 656.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-09",
+            "name": "Hotel Gold River",
+            "rate": 703.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-09",
+            "name": "Hotel Colorado Creek",
+            "rate": 744.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-10",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-10",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-10",
+            "name": "Hotel Colorado Creek",
+            "rate": 589.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-11",
+            "name": "Hotel Gold River",
+            "rate": 679,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-11",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-11",
+            "name": "Hotel Colorado Creek",
+            "rate": 718.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-12",
+            "name": "Hotel PortAventura",
+            "rate": 490,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-12",
+            "name": "Hotel Gold River",
+            "rate": 679,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-12",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-12",
+            "name": "Hotel Colorado Creek",
+            "rate": 718.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-13",
+            "name": "Hotel Gold River",
+            "rate": 679,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-13",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-13",
+            "name": "Hotel Colorado Creek",
+            "rate": 718.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-14",
+            "name": "Hotel Caribe",
+            "rate": 656.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-14",
+            "name": "Hotel Gold River",
+            "rate": 679,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-14",
+            "name": "Hotel Colorado Creek",
+            "rate": 706.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-16",
+            "name": "Hotel PortAventura",
+            "rate": 507.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-16",
+            "name": "Hotel Caribe",
+            "rate": 642.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-16",
+            "name": "Hotel Gold River",
+            "rate": 714,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-16",
+            "name": "Hotel Colorado Creek",
+            "rate": 771.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-17",
+            "name": "Hotel PortAventura",
+            "rate": 411.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-17",
+            "name": "Hotel Caribe",
+            "rate": 550.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-17",
+            "name": "Hotel Gold River",
+            "rate": 570.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-17",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-18",
+            "name": "Hotel PortAventura",
+            "rate": 507.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-18",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-18",
+            "name": "Hotel Gold River",
+            "rate": 703.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-18",
+            "name": "Hotel Colorado Creek",
+            "rate": 757.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-19",
+            "name": "Hotel PortAventura",
+            "rate": 507.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-19",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-19",
+            "name": "Hotel Gold River",
+            "rate": 703.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-19",
+            "name": "Hotel Colorado Creek",
+            "rate": 757.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-20",
+            "name": "Hotel Caribe",
+            "rate": 683.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-20",
+            "name": "Hotel Gold River",
+            "rate": 703.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-20",
+            "name": "Hotel Colorado Creek",
+            "rate": 757.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-21",
+            "name": "Hotel Caribe",
+            "rate": 669.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-21",
+            "name": "Hotel Gold River",
+            "rate": 703.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-21",
+            "name": "Hotel Colorado Creek",
+            "rate": 757.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-22",
+            "name": "Hotel PortAventura",
+            "rate": 446.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-22",
+            "name": "Hotel Caribe",
+            "rate": 616.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-22",
+            "name": "Hotel Gold River",
+            "rate": 619.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-22",
+            "name": "Hotel Colorado Creek",
+            "rate": 666.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-23",
+            "name": "Hotel PortAventura",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-23",
+            "name": "Hotel Caribe",
+            "rate": 642.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-23",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-23",
+            "name": "Hotel Colorado Creek",
+            "rate": 757.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-24",
+            "name": "Hotel Gold River",
+            "rate": 535.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-24",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-24",
+            "name": "Hotel Colorado Creek",
+            "rate": 575.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-25",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-25",
+            "name": "Hotel Gold River",
+            "rate": 582.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-26",
+            "name": "Hotel PortAventura",
+            "rate": 420,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-26",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-26",
+            "name": "Hotel Gold River",
+            "rate": 582.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-26",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-27",
+            "name": "Hotel Gold River",
+            "rate": 582.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-27",
+            "name": "Hotel Caribe",
+            "rate": 602.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-28",
+            "name": "Hotel PortAventura",
+            "rate": 411.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-28",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-28",
+            "name": "Hotel Caribe",
+            "rate": 564.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-28",
+            "name": "Hotel Colorado Creek",
+            "rate": 601.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-29",
+            "name": "Hotel PortAventura",
+            "rate": 358.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-29",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-29",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-29",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-30",
+            "name": "Hotel PortAventura",
+            "rate": 428.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-30",
+            "name": "Hotel Gold River",
+            "rate": 582.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-30",
+            "name": "Hotel Caribe",
+            "rate": 602.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-30",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-31",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-31",
+            "name": "Hotel Gold River",
+            "rate": 427,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-31",
+            "name": "Hotel Caribe",
+            "rate": 443.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-08-31",
+            "name": "Hotel Colorado Creek",
+            "rate": 457.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-01",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-01",
+            "name": "Hotel Gold River",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-01",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-02",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-02",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-02",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-03",
+            "name": "Hotel PortAventura",
+            "rate": 385,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-03",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-03",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-03",
+            "name": "Hotel Colorado Creek",
+            "rate": 548.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-04",
+            "name": "Hotel Caribe",
+            "rate": 431.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-04",
+            "name": "Hotel Gold River",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 536.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-05",
+            "name": "Hotel PortAventura",
+            "rate": 332.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-05",
+            "name": "Hotel Caribe",
+            "rate": 432.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-05",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-05",
+            "name": "Hotel Colorado Creek",
+            "rate": 484.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-06",
+            "name": "Hotel PortAventura",
+            "rate": 385,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-06",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-06",
+            "name": "Hotel Gold River",
+            "rate": 607.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-06",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-07",
+            "name": "Hotel Caribe",
+            "rate": 355.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-07",
+            "name": "Hotel Gold River",
+            "rate": 386.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-08",
+            "name": "Hotel Caribe",
+            "rate": 350.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-08",
+            "name": "Hotel Gold River",
+            "rate": 390.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-09",
+            "name": "Hotel Caribe",
+            "rate": 350.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-09",
+            "name": "Hotel Gold River",
+            "rate": 390.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-10",
+            "name": "Hotel Caribe",
+            "rate": 350.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-10",
+            "name": "Hotel Gold River",
+            "rate": 390.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-11",
+            "name": "Hotel Caribe",
+            "rate": 355.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-11",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-12",
+            "name": "Hotel PortAventura",
+            "rate": 271.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-12",
+            "name": "Hotel Caribe",
+            "rate": 403.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-12",
+            "name": "Hotel Gold River",
+            "rate": 413,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-13",
+            "name": "Hotel PortAventura",
+            "rate": 392,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-13",
+            "name": "Hotel Caribe",
+            "rate": 536.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-13",
+            "name": "Hotel Gold River",
+            "rate": 582.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-13",
+            "name": "Hotel Colorado Creek",
+            "rate": 627.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-14",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-14",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-15",
+            "name": "Ponient Pirámide Salou",
+            "rate": 322.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-15",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-16",
+            "name": "Ponient Pirámide Salou",
+            "rate": 331.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-16",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-17",
+            "name": "Ponient Pirámide Salou",
+            "rate": 331.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-17",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-18",
+            "name": "Ponient Pirámide Salou",
+            "rate": 322.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-18",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-19",
+            "name": "Hotel PortAventura",
+            "rate": 245,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-19",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-20",
+            "name": "Hotel PortAventura",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-20",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-20",
+            "name": "Hotel Gold River",
+            "rate": 547.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-20",
+            "name": "Hotel Colorado Creek",
+            "rate": 601.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-21",
+            "name": "Ponient Pirámide Salou",
+            "rate": 305,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-21",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-22",
+            "name": "Ponient Pirámide Salou",
+            "rate": 296.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-22",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-23",
+            "name": "Ponient Pirámide Salou",
+            "rate": 296.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-23",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-24",
+            "name": "Ponient Pirámide Salou",
+            "rate": 296.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-24",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-25",
+            "name": "Ponient Pirámide Salou",
+            "rate": 296.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-25",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-26",
+            "name": "Hotel PortAventura",
+            "rate": 218.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-26",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-27",
+            "name": "Hotel PortAventura",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-27",
+            "name": "Hotel Caribe",
+            "rate": 509.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-27",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 613.65,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-28",
+            "name": "Ponient Pirámide Salou",
+            "rate": 305,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-28",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-29",
+            "name": "Ponient Pirámide Salou",
+            "rate": 303.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-29",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-30",
+            "name": "Ponient Pirámide Salou",
+            "rate": 312,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-09-30",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-01",
+            "name": "Ponient Pirámide Salou",
+            "rate": 266.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-01",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-02",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-02",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-03",
+            "name": "Hotel PortAventura",
+            "rate": 253.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-03",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-04",
+            "name": "Hotel PortAventura",
+            "rate": 437.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-04",
+            "name": "Hotel Caribe",
+            "rate": 576.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-04",
+            "name": "Hotel Gold River",
+            "rate": 619.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-04",
+            "name": "Hotel Colorado Creek",
+            "rate": 639.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-05",
+            "name": "Ponient Pirámide Salou",
+            "rate": 343.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-05",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-06",
+            "name": "Ponient Pirámide Salou",
+            "rate": 343.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-06",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-07",
+            "name": "Ponient Pirámide Salou",
+            "rate": 327.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-07",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-08",
+            "name": "Ponient Pirámide Salou",
+            "rate": 327.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-08",
+            "name": "Hotel Gold River",
+            "rate": 355.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-09",
+            "name": "Ponient Pirámide Salou",
+            "rate": 327.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-09",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-10",
+            "name": "Hotel PortAventura",
+            "rate": 411.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-10",
+            "name": "Hotel Gold River",
+            "rate": 595,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-11",
+            "name": "Hotel PortAventura",
+            "rate": 446.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-11",
+            "name": "Hotel Caribe",
+            "rate": 616.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-11",
+            "name": "Hotel Gold River",
+            "rate": 665,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-11",
+            "name": "Hotel Colorado Creek",
+            "rate": 680.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-12",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-12",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-13",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-13",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-14",
+            "name": "Ponient Pirámide Salou",
+            "rate": 312,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-14",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-15",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-15",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-16",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-16",
+            "name": "Hotel Gold River",
+            "rate": 414.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-17",
+            "name": "Hotel PortAventura",
+            "rate": 280,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-17",
+            "name": "Hotel Gold River",
+            "rate": 425.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-18",
+            "name": "Hotel PortAventura",
+            "rate": 437.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-18",
+            "name": "Hotel Caribe",
+            "rate": 630.7,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-18",
+            "name": "Hotel Gold River",
+            "rate": 642.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-18",
+            "name": "Hotel Colorado Creek",
+            "rate": 680.15,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-19",
+            "name": "Ponient Pirámide Salou",
+            "rate": 266.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-19",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-20",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-20",
+            "name": "Hotel Gold River",
+            "rate": 451.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-21",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-21",
+            "name": "Hotel Gold River",
+            "rate": 448,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-22",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-22",
+            "name": "Hotel Gold River",
+            "rate": 448,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-23",
+            "name": "Ponient Pirámide Salou",
+            "rate": 313.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-23",
+            "name": "Hotel Gold River",
+            "rate": 451.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-24",
+            "name": "Hotel PortAventura",
+            "rate": 297.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-24",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-25",
+            "name": "Hotel PortAventura",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-25",
+            "name": "Hotel Caribe",
+            "rate": 746.2,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-25",
+            "name": "Hotel Gold River",
+            "rate": 763,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-25",
+            "name": "Hotel Colorado Creek",
+            "rate": 797.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-26",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-26",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-26",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-26",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-26",
+            "name": "Hotel Colorado Creek",
+            "rate": 496.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-27",
+            "name": "Ponient Pirámide Salou",
+            "rate": 319,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-27",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-27",
+            "name": "Hotel Colorado Creek",
+            "rate": 457.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-27",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-28",
+            "name": "Ponient Pirámide Salou",
+            "rate": 303.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-28",
+            "name": "Hotel Caribe",
+            "rate": 457.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-28",
+            "name": "Hotel Colorado Creek",
+            "rate": 457.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-28",
+            "name": "Hotel Gold River",
+            "rate": 463.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-29",
+            "name": "Ponient Pirámide Salou",
+            "rate": 303.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-29",
+            "name": "Hotel Caribe",
+            "rate": 443.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-29",
+            "name": "Hotel Gold River",
+            "rate": 451.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-29",
+            "name": "Hotel Colorado Creek",
+            "rate": 457.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-30",
+            "name": "Hotel PortAventura",
+            "rate": 306.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-30",
+            "name": "Hotel Caribe",
+            "rate": 443.45,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-30",
+            "name": "Hotel Gold River",
+            "rate": 451.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-10-30",
+            "name": "Hotel Colorado Creek",
+            "rate": 457.9,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-02",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-03",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-04",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-05",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-06",
+            "name": "Hotel Gold River",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-07",
+            "name": "Hotel PortAventura",
+            "rate": 236.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-07",
+            "name": "Hotel Gold River",
+            "rate": 388.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-08",
+            "name": "Hotel PortAventura",
+            "rate": 455,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-08",
+            "name": "Hotel Caribe",
+            "rate": 642.95,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-08",
+            "name": "Hotel Gold River",
+            "rate": 691.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-08",
+            "name": "Hotel Colorado Creek",
+            "rate": 706.4,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-09",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-10",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-11",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-12",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-13",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-14",
+            "name": "Hotel PortAventura",
+            "rate": 210,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-14",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-15",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-15",
+            "name": "Hotel Gold River",
+            "rate": 467.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-16",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-17",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-18",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-19",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-20",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-21",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-22",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-23",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-24",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-25",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-26",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-27",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-28",
+            "name": "Hotel PortAventura",
+            "rate": 227.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-28",
+            "name": "Hotel Gold River",
+            "rate": 379.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-29",
+            "name": "Hotel PortAventura",
+            "rate": 367.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-29",
+            "name": "Hotel Gold River",
+            "rate": 511,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-11-30",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-01",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-02",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-03",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-04",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-05",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-05",
+            "name": "Hotel Gold River",
+            "rate": 477.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-06",
+            "name": "Hotel PortAventura",
+            "rate": 388.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-06",
+            "name": "Hotel Gold River",
+            "rate": 563.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-07",
+            "name": "Hotel PortAventura",
+            "rate": 388.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-07",
+            "name": "Hotel Gold River",
+            "rate": 563.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-08",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-09",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-10",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-11",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-12",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-13",
+            "name": "Hotel PortAventura",
+            "rate": 332.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-13",
+            "name": "Hotel Gold River",
+            "rate": 498.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-14",
+            "name": "Hotel Gold River",
+            "rate": 402.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-15",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-16",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-17",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-18",
+            "name": "Hotel Gold River",
+            "rate": 318.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-19",
+            "name": "Hotel Gold River",
+            "rate": 418.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-20",
+            "name": "Hotel PortAventura",
+            "rate": 350,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-20",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-21",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-21",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-22",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-22",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-23",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-23",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Hotel PortAventura",
+            "rate": 350,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-25",
+            "name": "Hotel Gold River",
+            "rate": 523.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-26",
+            "name": "Hotel PortAventura",
+            "rate": 358.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-26",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-27",
+            "name": "Hotel PortAventura",
+            "rate": 369.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-27",
+            "name": "Hotel Gold River",
+            "rate": 570.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-28",
+            "name": "Hotel PortAventura",
+            "rate": 358.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-28",
+            "name": "Hotel Gold River",
+            "rate": 558.25,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-29",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-29",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-30",
+            "name": "Hotel PortAventura",
+            "rate": 315,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2025-12-30",
+            "name": "Hotel Gold River",
+            "rate": 486.5,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-01",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-01",
+            "name": "Hotel Gold River",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-02",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-02",
+            "name": "Hotel Gold River",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-03",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-03",
+            "name": "Hotel Gold River",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-04",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-04",
+            "name": "Hotel Gold River",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-05",
+            "name": "Hotel PortAventura",
+            "rate": 336,
+            "rate_old": null,
+            "discount": 0
+        },
+        {
+            "date": "2026-01-05",
+            "name": "Hotel Gold River",
+            "rate": 505.75,
+            "rate_old": null,
+            "discount": 0
+        }
+    ]
+}

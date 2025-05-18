@@ -31,15 +31,17 @@ testpaths = [
     "tests",
     "tests/integration_tests",
     "tests/unit_tests",
-    "tests/approval_tests"
+    "tests/approval_tests",
 ]
-pythonpath = [
-    "src"
-]
-python_files = ["test_*.py", "*_test.py", "*_should.py", ]
+pythonpath = ["src"]
+python_files = ["test_*.py", "*_test.py", "*_should.py"]
 python_classes = ["Test", "Acceptance", "Given"]
 python_functions = ["test", "*_test", "when_*", "then_*"]
 # addopts = "-v --cov=src --no-cov-on-fail --cov-report=term-missing tests/"
+markers = [
+    "integration_tests: marks tests to avoid execution if you want (deselect with '-m \"not integration_tests\"')",
+]
+
 
 [build-system]
 requires = ["poetry-core"]
