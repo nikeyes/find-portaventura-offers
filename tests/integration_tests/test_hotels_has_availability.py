@@ -12,6 +12,7 @@ from src.commands.download_hotel_prices import DownloadPrices
 from src.domain.portaventura_rates import PortaventuraRates
 
 
+@pytest.mark.integration_tests
 class TestHotelsHasAvailability(TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -47,7 +48,6 @@ class TestHotelsHasAvailability(TestCase):
 
         assert len(lucy_rates) > 0
 
-    @pytest.mark.integration_tests
     def test_all_hotels_have_availability(self):
         portaventura_prices = self.download_prices.download()
         
